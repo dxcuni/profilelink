@@ -19,7 +19,7 @@
 			   var URLVaraibale =	"/Saba/Web_spf/NA3T1SNB0081/common/profile/"
 		   /* Global Varaibles END */ 
 		   viewData = gadgets.views.getParams();   
-alert("shakeeTTTHHH");
+alert("shakee123456");
 
 		   // sabaCertificate =  viewData.sabaContext.apiCertificate;
 		    userName = $.trim(viewData.sabaContext.userName);			
@@ -31,7 +31,7 @@ alert("shakeeTTTHHH");
                     MyCompLearningURL = currentURLHost+URLVaraibale+"learningtranscripts/"+employeeID;
 		    MyPlanURL = currentURLHost+URLVaraibale+"plans/"+employeeID	;
 		    MySkillManagementURL = currentURLHost+URLVaraibale+"plans/"+employeeID;
-			alert(currentURL +" -- "+currentURLHost );
+			//alert(currentURL +" -- "+currentURLHost );
 			
 	   // gadgets.util.registerOnLoadHandler(init);
 	   
