@@ -19,7 +19,7 @@
 			   var URLVaraibale =	"/Saba/Web_spf/NA3T1SNB0081/common/profile/"
 		   /* Global Varaibles END */ 
 		   viewData = gadgets.views.getParams();   
-alert("shakee898998");
+alert("shakeeTest111222");
 		   // sabaCertificate =  viewData.sabaContext.apiCertificate;
 		    userName = $.trim(viewData.sabaContext.userName);			
 		    employeeID = $.trim(viewData.sabaContext.userId) ;			
@@ -41,7 +41,7 @@ alert("shakee898998");
 			<tbody>
 
 				<tr>
-					<td style="text-align: center; color: #000000; padding-top: 10px; padding-left:1px; padding-bottom:5px; padding-right:30px; font-family: arial; vertical-align: middle;">
+					<td style="text-align: center; color: #000000; padding-top: 10px; padding-left:1px; padding-bottom:5px; padding-right:50px; font-family: arial; vertical-align: middle;">
 					<a href="" target="_blank" id="profile" ><img src="../res/images/Profile.jpg" class="imgBox" /></a>
 					</td>
 					<td style="text-align: center; color: #000000; padding-top: 10px; padding-left:10px; padding-bottom:5px; padding-right:1px; font-family: arial; vertical-align: middle;">
@@ -49,7 +49,7 @@ alert("shakee898998");
 					</td>
 				</tr>
 				 <tr>				
-					<td style="text-align: center; color: #000000; padding-top: 10px; padding-left:1px; padding-bottom:10px; padding-right:30px; font-family: arial; vertical-align: middle;">
+					<td style="text-align: center; color: #000000; padding-top: 10px; padding-left:1px; padding-bottom:10px; padding-right:50px; font-family: arial; vertical-align: middle;">
 					<a href="" target="_blank" id="plan" ><img src="../res/images/Plan.jpg" class="imgBox" /></a>
 					</td>
 					<td style="text-align: center; color: #000000; padding-top: 10px; padding-left:10px; padding-bottom:10px; padding-right:1px; font-family: arial; vertical-align: middle;">
