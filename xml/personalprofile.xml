@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 	<Module>
-	<ModulePrefs title="API Demo">
+	<ModulePrefs title="Profile Links">
 	    <Require feature="opensocial-templates"/>
 	    <Require feature="opensocial-data"/>
 	    <Require feature="views"/>
