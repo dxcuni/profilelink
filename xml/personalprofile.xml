@@ -36,9 +36,8 @@ alert("shakee111122");
 	   
 	    </script>	
 	    <!-- Search Box Start-->
-		<div>
-		    <center>
-		       <table>
+		
+		       <table style="border: 1px solid black;">
 			<tbody>
 
 				<tr>
@@ -67,8 +66,7 @@ alert("shakee111122");
                     $("a#skill").attr("href", MySkillManagementURL);
                 </script>		
 
-	        </center>	
-	    </div>
+	      
 	    <!-- Search Box END-->
 	
 	    </script>
