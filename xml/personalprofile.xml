@@ -37,11 +37,9 @@ alert("shakee1111");
 	   
 	    </script>	
 	    <!-- Search Box Start-->
-	<div  style="height:600px">
-	    <div id="divRoleForm">
 		<div>
 		    <center>
-		       <table style="border: 1px solid black; ">
+		       <table>
 			<tbody>
 
 				<tr>
@@ -68,11 +66,9 @@ alert("shakee1111");
                     $("a#lerning").attr("href", MyCompLearningURL);
                     $("a#plan").attr("href", MyPlanURL);
                     $("a#skill").attr("href", MySkillManagementURL);
-                </script>
-			
+                </script>		
 
-		    </center>
-		</div>
+	        </center>	
 	    </div>
 	    <!-- Search Box END-->
 	
