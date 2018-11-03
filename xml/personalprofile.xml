@@ -16,11 +16,6 @@
 			   var sabaCertificate ;
 			   var employeeID ;
 			   var userName ;
-			   var urlAPIRole ;   
-			   var varRoleID;
-			   var refreshInterval=1;
-			   var  errorAPIRoleAssigmnet = "Insufficient Privileges: You do not have Can add required/optional role for self privilege on Person, Internal";
-			   var varRoleDetailPDFlocation ;//= "https://raw.githubusercontent.com/poc-org/initiative/itg/doc/";
 			   var URLVaraibale =	"/Saba/Web_spf/NA3T1SNB0081/common/profile/"
 		   /* Global Varaibles END */ 
 		   viewData = gadgets.views.getParams();   
@@ -37,14 +32,7 @@ alert("shakeeTTTHHH");
 		    MyPlanURL = currentURLHost+URLVaraibale+"plans/"+employeeID	;
 		    MySkillManagementURL = currentURLHost+URLVaraibale+"plans/"+employeeID;
 			alert(currentURL +" -- "+currentURLHost );
-			alert(MyProfileURL);
-			console.log(MyCompLearningURL);
-			console.log(MyPlanURL);
-			console.log(MySkillManagementURL);
-
-		   //urlAPIRole =  $.trim(decodeURIComponent(viewData.sabaParams.saba_url))+'/v1/' ;
-                  //alert(userName +" -- "+employeeID );
-
+			
 	   // gadgets.util.registerOnLoadHandler(init);
 	   
 	    </script>	
@@ -53,19 +41,34 @@ alert("shakeeTTTHHH");
 	    <div id="divRoleForm">
 		<div>
 		    <center>
-		      <table style="border: 1px solid black; width: 350px; height: 110px; padding-top: 35px; padding-left: 30px; margin-left: 36px; min-width: 30%;">
-				<tbody>
+		       <table style="border: 1px solid black; ">
+			<tbody>
 
 				<tr>
-				<td style="text-align: center; color: #000000; padding-top: 10px; padding-left:10px; padding-bottom:10px; padding-right:10px; font-family: arial; vertical-align: middle;"><!--3 Bottom Buttons--><center style="font-size: 23px; color: #000000;">Questions about Learning or Skills?</center></td>
-				<td style="text-align: center; color: #000000; padding-top: 10px; padding-left:10px; padding-bottom:10px; padding-right:10px; font-family: arial; vertical-align: middle;"><!--3 Bottom Buttons--><center style="font-size: 23px; color: #000000;">Questions about Learning or Skills?</center></td>
+					<td style="text-align: center; color: #000000; padding-top: 10px; padding-left:10px; padding-bottom:5px; padding-right:5px; font-family: arial; vertical-align: middle;">
+					<a href="" target="_blank" id="profile" ><img src="../res/images/Profile.jpg" class="imgBox" /></a>
+					</td>
+					<td style="text-align: center; color: #000000; padding-top: 10px; padding-left:10px; padding-bottom:5px; padding-right:10px; font-family: arial; vertical-align: middle;">
+					<a href="" target="_blank" id="lerning" ><img src="../res/images/Learning.jpg" class="imgBox" /></a>
+					</td>
 				</tr>
-				    <tr>
-				<td style="text-align: center; color: #000000; padding-top: 10px; padding-left:10px; padding-bottom:10px; padding-right:10px; font-family: arial; vertical-align: middle;"><!--3 Bottom Buttons--><center style="font-size: 23px; color: #000000;">Questions about Learning or Skills?</center></td>
-				<td style="text-align: center; color: #000000; padding-top: 10px; padding-left:10px; padding-bottom:10px; padding-right:10px; font-family: arial; vertical-align: middle;"><!--3 Bottom Buttons--><center style="font-size: 23px; color: #000000;">Questions about Learning or Skills?</center></td>
+				 <tr>				
+					<td style="text-align: center; color: #000000; padding-top: 10px; padding-left:10px; padding-bottom:10px; padding-right:5px; font-family: arial; vertical-align: middle;">
+					<a href="" target="_blank" id="plan" ><img src="../res/images/Plan.jpg" class="imgBox" /></a>
+					</td>
+					<td style="text-align: center; color: #000000; padding-top: 10px; padding-left:10px; padding-bottom:10px; padding-right:10px; font-family: arial; vertical-align: middle;">
+					<a href="" target="_blank" id="skill" ><img src="../res/images/Skill.jpg" class="imgBox" /></a>
+					</td>
 				</tr>
-				</tbody>
+			</tbody>
 			</table>
+			
+                <script type="text/javascript" language="javascript">
+                    $("a#profile").attr("href", MyProfileURL);
+                    $("a#lerning").attr("href", MyCompLearningURL);
+                    $("a#plan").attr("href", MyPlanURL);
+                    $("a#skill").attr("href", MySkillManagementURL);
+                </script>
 			
 
 		    </center>
