@@ -30,19 +30,18 @@
                     MyCompLearningURL = currentURLHost+URLVaraibale+"learningtranscripts/"+employeeID;
 		    MyPlanURL = currentURLHost+URLVaraibale+"plans/"+employeeID	;
 		    MySkillManagementURL = currentURLHost+URLVaraibale+"plans/"+employeeID;
-			//alert(currentURL +" -- "+currentURLHost );
-			
+			//alert(currentURL +" -- "+currentURLHost );			
 	   // gadgets.util.registerOnLoadHandler(init);
 	   
 	    </script>
 		
-		 <style type="text/css">       
-			#ex2 img { 
-			border: 1px solid white; 
-			} 
-			#ex2 img:hover { 
-				border: 1px solid black; 
-			}        
+	 <style type="text/css">       
+		#ex2 img { 
+		border: 1px solid white; 
+		} 
+		#ex2 img:hover { 
+			border: 1px solid black; 
+		}        
          </style>		
 	    <!-- Search Box Start-->
 		
