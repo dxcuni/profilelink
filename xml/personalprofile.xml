@@ -49,10 +49,10 @@
 			<tbody>
 
 				<tr>
-					<td style="text-align: center; color: #000000; padding-top: 10px; padding-left:1px; padding-bottom:5px; padding-right:3px; font-family: arial; vertical-align: middle;">
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:5px; padding-right:3px; font-family: arial; vertical-align: middle;">
 					<a href="" target="_blank" id="profile" ><div id="ex2"><img src="../res/images/Profile.jpg" class="imgBox" /></div></a>
 					</td>
-					<td style="text-align: center; color: #000000; padding-top: 10px; padding-left:10px; padding-bottom:5px; padding-right:1px; font-family: arial; vertical-align: middle;">
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:10px; padding-bottom:5px; padding-right:1px; font-family: arial; vertical-align: middle;">
 					<a href="" target="_blank" id="lerning" ><div id="ex2"><img src="../res/images/Learning.jpg" class="imgBox" /></div></a>
 					</td>
 				</tr>
