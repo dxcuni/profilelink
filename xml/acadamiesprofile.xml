@@ -22,7 +22,7 @@
          </style>		
 	    <!-- Acdemic  Box Start-->
 		
-		   <table>
+		  <table>
           <tr>
               <td style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;"> 
                  <div id="ex2"><a href="https://my.dxc.com/dxc-university/DXCBusSkills" target="_blank"  ><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png" style="width:213px; " /></a></div>
@@ -41,7 +41,7 @@
           <tr><td colspan="4"><br /></td></tr>
           <tr>
               <td colspan="4" style="background-color:#BCB9B9; height:30px; padding-left:10px;" >
-                 <span style="font-family: arial, sans-serif; font-size: 16pt; color: #FCD720;"> Featured Curriculum 9090 </span>
+                 <span style="font-family: arial, sans-serif; font-size: 16pt; color: #FCD720;"> Featured Curriculum 1 </span>
               </td>
           </tr>
            <tr>
@@ -51,6 +51,7 @@
            </tr>
           <tr>
               <td colspan="4">
+			  <!--Start: Featured Curriculum Recent Area --> 
                   <table>
                       <tr>
                           <td>
@@ -88,6 +89,7 @@
                           </td>
                       </tr>
                   </table>
+				  <!--End: Featured Curriculum Recent Area --> 
               </td>
             </tr>
           <tr><td colspan="4"><br /></td></tr>
@@ -99,6 +101,7 @@
           <tr><td colspan="4"><br /></td></tr>
             <tr>
               <td colspan="4">
+			  <!--Start: Featured Curriculum Popular Area --> 
                   <table>
                       <tr>
                           <td>
@@ -136,6 +139,7 @@
                           </td>
                       </tr>
                   </table>
+				  <!--End: Featured Curriculum Popular Area --> 
               </td>
             </tr>
              <tr><td colspan="4"><br /></td></tr>   
@@ -147,7 +151,7 @@
           <tr><td colspan="4"><br /></td></tr>
           <tr>
               <td colspan="4">
-                  
+                  <!--Start: Popular Course of the Quarter Area --> 
                   <table>
                       <tr>
                           <td>
@@ -185,6 +189,7 @@
                           </td>
                       </tr>
                   </table>
+				  <!--Start: Popular Course of the Quarter Area --> 
               </td>
             </tr>          
  </table>
