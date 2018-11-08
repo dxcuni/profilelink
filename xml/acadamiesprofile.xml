@@ -1,4 +1,28 @@
- <table style="width:868px;">
+<?xml version="1.0" encoding="UTF-8" ?>
+	<Module>
+	<ModulePrefs title="Profile Links">
+	    <Require feature="opensocial-templates"/>
+	    <Require feature="opensocial-data"/>
+	    <Require feature="views"/>
+	    <Require feature="dynamic-height"/>
+	    <Require feature="osapi"/>
+	  </ModulePrefs>
+        <Content type="html" view="home">
+	  <![CDATA[
+		   
+	    </script>
+		
+	 <style type="text/css">       
+		#ex2 img { 
+		border: 1px solid white; 
+		} 
+		#ex2 img:hover { 
+			border: 1px solid black; 
+		}        
+         </style>		
+	    <!-- Acdemic  Box Start-->
+		
+		   <table style="width:868px;">
           <tr>
                 <td style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;"> 
                  <div  onmouseover="this.style.border='thin solid #000000'" onmouseout ="this.style.borderColor='#ffffff'"><a href="https://my.dxc.com/dxc-university/DXCBusSkills" target="_blank"  ><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png" style="width:217px; " /></a></div>
@@ -164,3 +188,11 @@
               </td>
             </tr>          
  </table>
+
+	      
+	    <!-- Acdemic  Box END-->
+	
+	    </script>
+	  ]]>
+	  </Content>
+	</Module>
