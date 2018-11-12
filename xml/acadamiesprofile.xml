@@ -101,8 +101,8 @@
           </tr>
           <tr><td colspan="4"><br /></td></tr>
           <tr>
-              <td colspan="4" style="background-color:#BCB9B9; height:30px; padding-left:10px;" >
-                 <span style="font-family: arial, sans-serif; font-size: 16pt; color: #FCD720;"> Featured Curriculum 1 </span>
+              <td colspan="4" style="background-color:#8b8e91; height:30px; padding-left:10px;" >
+                 <span style="font-family: arial, sans-serif; font-size: 16pt; color: white;"> Featured Curriculum 1 </span>
               </td>
           </tr>
            <tr>
@@ -184,8 +184,8 @@
             </tr>
              <tr><td colspan="4"><br /></td></tr>   
             <tr>
-              <td colspan="4" style="background-color:#BCB9B9; height:30px; padding-left:10px;" >
-                 <span style="font-family: arial, sans-serif; font-size: 16pt; color: #FCD720;"> Popular Course of the Quarter </span>
+              <td colspan="4" style="background-color:#8b8e91; height:30px; padding-left:10px;" >
+                 <span style="font-family: arial, sans-serif; font-size: 16pt; color: white;"> Popular Course of the Quarter </span>
               </td>
           </tr>
           
