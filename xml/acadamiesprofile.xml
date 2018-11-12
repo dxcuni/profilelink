@@ -18,7 +18,68 @@
 		} 
 		#ex2 img:hover { 
 			border: 1px solid black; 
-		}        
+		}    
+
+		body {
+		  font-family: Graphik, sans-serif;
+		  color: #1a1b1f;
+		  font-size: 17px;
+		  line-height: 1.3;
+		  font-weight: 400;
+		}
+		a {
+		  -webkit-transition: background-color 100ms ease;
+		  transition: background-color 100ms ease;
+		  color: #4353ff;
+		  text-decoration: none;
+		}
+
+		a:hover {
+		  color: #1a1b1f;
+		}
+
+		.pill-button {
+		  display: inline-block;
+		  margin-right: 8px;
+		  margin-bottom: 8px;
+		  padding: 4px 12px;
+		  border: 1px none #fff;
+		  border-radius: 100px;
+		  background-color: hsla(0, 0%, 100%, .24);
+		  opacity: 0.61;
+		  -webkit-transition: background-color 100ms ease, opacity 100ms ease, -webkit-transform 100ms ease;
+		  transition: background-color 100ms ease, opacity 100ms ease, -webkit-transform 100ms ease;
+		  transition: background-color 100ms ease, opacity 100ms ease, transform 100ms ease;
+		  transition: background-color 100ms ease, opacity 100ms ease, transform 100ms ease, -webkit-transform 100ms ease;
+		  color: #fff;
+		  font-size: 16px;
+		}
+
+		.pill-button:hover {
+		  background-color: hsla(0, 0%, 100%, .29);
+		  opacity: 1;
+		  color: #fff;
+		}
+
+		.pill-button.dark {
+		  background-color: #dfe0e2;
+		  color: #000;
+		}
+
+		.pill-button.dark {
+		  background-color: #dfe0e2;
+		  color: #000;
+		}
+
+		.breadcrumbslash {
+		  width: 8px;
+		  margin-right: 8px;
+		  margin-bottom: 0px;
+		  margin-left: 0px;
+		  opacity: 0.21;
+		}
+
+		
          </style>		
 	    <!-- Acdemic  Box Start-->
 		
@@ -54,38 +115,29 @@
 			  <!--Start: Featured Curriculum Recent Area --> 
                   <table>
                       <tr>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003601" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/Agile.jpg"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"><a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003203" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003140" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003341" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003201" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003201" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003980" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003820" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003565" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003600" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/ledetail/cours000000000177677" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a> </div>
+                  <td>
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003601" class="pill-button dark">Agile Beginner</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003203" class="pill-button dark">Architecting Microsoft Azure Solutions (70-534) – Curriculum</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003140" class="pill-button dark">AWS Certified Developer - Associate Level Curriculum</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003341" class="pill-button dark">AWS Certified Solutions Architect – Professional Level Curriculum</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003600" class="pill-button dark">Mobile Testing</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003201" class="pill-button dark">Developing Microsoft Azure Solutions (70-532) – Curriculum</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003980" class="pill-button dark">DevOps Dojo - Yellow Belt - First Stripe</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003820" class="pill-button dark">DXC ITSM Foundation Training (ITIL® Foundation)</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/ledetail/cours000000000177677" class="pill-button dark">RPA - UiPath Developer Foundation Program</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003141?context=user&learnerId=emplo000000000226296" class="pill-button dark">AWS Certified SysOps Administrator - Associate Level Curriculum</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+
+
                           </td>
                       </tr>
                   </table>
@@ -98,44 +150,32 @@
                 <span style="font-family: arial, sans-serif; font-size: 16pt; color: #20FCF5; font-weight: bold;"> Popular </span>
             </td>
          </tr> 
-          <tr><td colspan="4"><br /></td></tr>
+          
             <tr>
               <td colspan="4">
 			  <!--Start: Featured Curriculum Popular Area --> 
                   <table>
                       <tr>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003601" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/Agile.jpg"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"><a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003203" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003140" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003341" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003201" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003201" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003980" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003820" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003565" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003600" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/ledetail/cours000000000177677" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a> </div>
+                                <td>
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003160" class="pill-button dark">AWS Certified Solutions Architect - Associate Level Curriculum</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003808" class="pill-button dark">DevOps Dojo - Green Belt</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003521" class="pill-button dark">DevOps Dojo - White Belt</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003860" class="pill-button dark">Digital Foundation</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003640" class="pill-button dark">Digital Enablement Program - Phase 1</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003900" class="pill-button dark">DXC Bionix Asset Training</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003202" class="pill-button dark">Implementing Microsoft Azure Infrastructure Solutions (70-533) – Curriculum</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003200" class="pill-button dark">Microsoft Azure Basics - Curriculum</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003682" class="pill-button dark">Spartans White Belt 3.0</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+
                           </td>
                       </tr>
                   </table>
@@ -148,45 +188,35 @@
                  <span style="font-family: arial, sans-serif; font-size: 16pt; color: #FCD720;"> Popular Course of the Quarter </span>
               </td>
           </tr>
-          <tr><td colspan="4"><br /></td></tr>
+          
           <tr>
               <td colspan="4">
                   <!--Start: Popular Course of the Quarter Area --> 
                   <table>
                       <tr>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003601" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/Agile.jpg"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"><a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003203" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003140" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003341" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003201" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003201" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003980" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003820" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003565" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003600" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a></div>
-                          </td>
-                          <td>
-                               <div id="ex2"> <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/ledetail/cours000000000177677" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png"   style="width:72px; "/></a> </div>
-                          </td>
+                           <td>
+<a href="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/cl_msaz_a01_it_enus" class="pill-button dark">Microsoft Azure: Introduction</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/os_devo_a01_it_enus" class="pill-button dark">Introduction to SQL</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/cl_awsc_a01_it_enus" class="pill-button dark">Architecting on Amazon Web Services: IAM and Object Storage</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/pg_pyth_a01_it_enus" class="pill-button dark">Python: The Basics</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/apj_13_a01_it_enus" class="pill-button dark">Agile Principles and Methodologies</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/df_sqli_a01_it_enus" class="pill-button dark">Introducing Agile Software Development</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/acs_01_a02_it_enus" class="pill-button dark">ITIL® Service Strategy Concepts</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/jl_jsee_a01_it_enus" class="pill-button dark">Java SE 8 Fundamentals: Introduction to Java</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/cl_msaz_a02_it_enus" class="pill-button dark">Microsoft Azure: Networks and Storage</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+<a href="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/sd_agsd_a01_it_enus" class="pill-button dark">DevOps Fundamentals: Tools, Technologies, and Infrastructures</a>
+<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/slash-img.svg" alt="" class="breadcrumbslash">
+
+                    </td>
                       </tr>
                   </table>
 				  <!--Start: Popular Course of the Quarter Area --> 
