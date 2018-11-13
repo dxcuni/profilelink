@@ -115,6 +115,9 @@
 			  <!--Start: Featured Curriculum Recent Area --> 
                   <table>
                       <tr>
+		  <td>
+			<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/dxc_icon_blogpost_blk_rgb_300ppi.png" width="100px;" height="100px;" />
+		  </td>
                   <td>
 <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003601" class="pill-button dark">Agile Beginner</a>
 <img src="https://global-uploads.webflow.com/55e66dd8b5daada24f333566/58f565d018dc9b2b2cc1daf4_slash.svg" alt="" class="breadcrumbslash">
@@ -156,6 +159,9 @@
 			  <!--Start: Featured Curriculum Popular Area --> 
                   <table>
                       <tr>
+  			<td>
+			<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/dxc_icon_learndiscoverfindoutmore_blk_rgb_300ppi.png" width="100px;" height="100px;" />
+		       </td>
                                 <td>
 <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003160" class="pill-button dark">AWS Certified Solutions Architect - Associate Level Curriculum</a>
 <img src="https://global-uploads.webflow.com/55e66dd8b5daada24f333566/58f565d018dc9b2b2cc1daf4_slash.svg" alt="" class="breadcrumbslash">
@@ -193,6 +199,9 @@
                   <!--Start: Popular Course of the Quarter Area --> 
                   <table>
                       <tr>
+		      <td>
+			<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/dxc_icon_accelerate_blk_rgb_300ppi.png" width="100px;" height="100px;" />
+		       </td>
                            <td>
 <a href="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/cl_msaz_a01_it_enus" class="pill-button dark">Microsoft Azure: Introduction</a>
 <img src="https://global-uploads.webflow.com/55e66dd8b5daada24f333566/58f565d018dc9b2b2cc1daf4_slash.svg" alt="" class="breadcrumbslash">
