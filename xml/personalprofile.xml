@@ -16,7 +16,7 @@
 			   var sabaCertificate ;
 			   var employeeID ;
 			   var userName ;
-			   var URLVaraibale =	"/Saba/Web_spf/NA2PRD0005/common/profile/"
+			   var URLVaraibale =	"/Saba/Web_spf/NA3T1SNB0081/common/profile/"
 		   /* Global Varaibles END */ 
 		   viewData = gadgets.views.getParams();   
 
@@ -25,7 +25,6 @@
 		    employeeID = $.trim(viewData.sabaContext.userId) ;			
 		    currentURL = $(location).attr('href');
 		    currentURLHost = $(location).attr('protocol')+"//"+$(location).attr('hostname');
-alert(employeeID);
 			
     		MyProfileURL = currentURLHost+URLVaraibale+"basicinfo/"+employeeID;	
             MyCompLearningURL = currentURLHost+URLVaraibale+"learningtranscripts/"+employeeID;
