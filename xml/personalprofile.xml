@@ -19,12 +19,13 @@
 			   var URLVaraibale =	"/Saba/Web_spf/NA2PRD0005/common/profile/"
 		   /* Global Varaibles END */ 
 		   viewData = gadgets.views.getParams();   
-//alert("shakeeTest444");
+
 		   // sabaCertificate =  viewData.sabaContext.apiCertificate;
 		    userName = $.trim(viewData.sabaContext.userName);			
 		    employeeID = $.trim(viewData.sabaContext.userId) ;			
 		    currentURL = $(location).attr('href');
 		    currentURLHost = $(location).attr('protocol')+"//"+$(location).attr('hostname');
+alert(employeeID);
 			
     		MyProfileURL = currentURLHost+URLVaraibale+"basicinfo/"+employeeID;	
             MyCompLearningURL = currentURLHost+URLVaraibale+"learningtranscripts/"+employeeID;
@@ -51,18 +52,18 @@
 
 				<tr>
 					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:5px; padding-right:3px; font-family: arial; vertical-align: middle;">
-					<a href="" id="profile" ><div id="ex2"><img src="../res/images/Profile.jpg" class="imgBox" /></div></a>
+					<a href="" target="_blank" id="profile" ><div id="ex2"><img src="../res/images/Profile.jpg" class="imgBox" /></div></a>
 					</td>
 					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:10px; padding-bottom:5px; padding-right:0px; font-family: arial; vertical-align: middle;">
-					<a href="" id="lerning" ><div id="ex2"><img src="../res/images/Learning.jpg" class="imgBox" /></div></a>
+					<a href="" target="_blank" id="lerning" ><div id="ex2"><img src="../res/images/Learning.jpg" class="imgBox" /></div></a>
 					</td>
 				</tr>
 				 <tr>				
 					<td style="text-align: center; color: #000000; padding-top: 10px; padding-left:1px; padding-bottom:10px; padding-right:3px; font-family: arial; vertical-align: middle;">
-					<a href="" id="plan" ><div id="ex2"><img src="../res/images/Plan.jpg" class="imgBox" /></div></a>
+					<a href="" target="_blank" id="plan" ><div id="ex2"><img src="../res/images/Plan.jpg" class="imgBox" /></div></a>
 					</td>
 					<td style="text-align: center; color: #000000; padding-top: 10px; padding-left:10px; padding-bottom:10px; padding-right:0px; font-family: arial; vertical-align: middle;">
-					<a href="" id="reward" ><div id="ex2"><img src="../res/images/myrewards.jpg" class="imgBox" /></div></a>
+					<a href="" target="_blank" id="reward" ><div id="ex2"><img src="../res/images/myrewards.jpg" class="imgBox" /></div></a>
 					</td>
 				</tr>
 				
