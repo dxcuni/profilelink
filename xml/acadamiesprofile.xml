@@ -122,29 +122,27 @@
 			<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/dxc_icon_blogpost_blk_rgb_300ppi.png" width="100px;" height="100px;" />
 		  </td>
                   <td>
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003601" style="color: rgb(0,0,0); font-size:large" >Agile Beginner</a>
-<img src="https://global-uploads.webflow.com/55e66dd8b5daada24f333566/58f565d018dc9b2b2cc1daf4_slash.svg" alt="" class="breadcrumbslash">
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003203" style="color: rgb(0,0,0); font-size:large">Architecting Microsoft Azure Solutions (70-534) – Curriculum</a>
-<img src="https://global-uploads.webflow.com/55e66dd8b5daada24f333566/58f565d018dc9b2b2cc1daf4_slash.svg" alt="" class="breadcrumbslash">
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003140" style="color: rgb(0,0,0); font-size:large">AWS Certified Developer - Associate Level Curriculum</a>
-<img src="https://global-uploads.webflow.com/55e66dd8b5daada24f333566/58f565d018dc9b2b2cc1daf4_slash.svg" alt="" class="breadcrumbslash">
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003341" style="color: rgb(0,0,0); font-size:large">AWS Certified Solutions Architect – Professional Level Curriculum</a>
-<img src="https://global-uploads.webflow.com/55e66dd8b5daada24f333566/58f565d018dc9b2b2cc1daf4_slash.svg" alt="" class="breadcrumbslash">
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003600" style="color: rgb(0,0,0); font-size:large" >Mobile Testing</a>
-<img src="https://global-uploads.webflow.com/55e66dd8b5daada24f333566/58f565d018dc9b2b2cc1daf4_slash.svg" alt="" class="breadcrumbslash">
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003201" style="color: rgb(0,0,0); font-size:large">Developing Microsoft Azure Solutions (70-532) – Curriculum</a>
-<img src="https://global-uploads.webflow.com/55e66dd8b5daada24f333566/58f565d018dc9b2b2cc1daf4_slash.svg" alt="" class="breadcrumbslash">
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003980" style="color: rgb(0,0,0); font-size:large">DevOps Dojo - Yellow Belt - First Stripe</a>
-<img src="https://global-uploads.webflow.com/55e66dd8b5daada24f333566/58f565d018dc9b2b2cc1daf4_slash.svg" alt="" class="breadcrumbslash">
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003820" style="color: rgb(0,0,0); font-size:large">DXC ITSM Foundation Training (ITIL® Foundation)</a>
-<img src="https://global-uploads.webflow.com/55e66dd8b5daada24f333566/58f565d018dc9b2b2cc1daf4_slash.svg" alt="" class="breadcrumbslash">
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/ledetail/cours000000000177677" style="color: rgb(0,0,0); font-size:large" >RPA - UiPath Developer Foundation Program</a>
-<img src="https://global-uploads.webflow.com/55e66dd8b5daada24f333566/58f565d018dc9b2b2cc1daf4_slash.svg" alt="" class="breadcrumbslash">
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003141?context=user&learnerId=emplo000000000226296" style="color: rgb(0,0,0); font-size:large">AWS Certified SysOps Administrator - Associate Level Curriculum</a>
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003601" class="pill-button dark"  target="_blank" >Agile Beginner</a>
 
-                              
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003203" class="pill-button dark"  target="_blank" >Architecting Microsoft Azure Solutions (70-534) – Curriculum</a>
 
-                        
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003600" class="pill-button dark"  target="_blank" >Mobile Testing</a>
+
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003140" class="pill-button dark"  target="_blank" >AWS Certified Developer - Associate Level Curriculum</a>
+
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/ledetail/cours000000000177677" class="pill-button dark"  target="_blank" >RPA - UiPath Developer Foundation Program</a>
+
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003341" class="pill-button dark"  target="_blank" >AWS Certified Solutions Architect – Professional Level Curriculum</a>
+
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003980" class="pill-button dark"  target="_blank" >DevOps Dojo - Yellow Belt - First Stripe</a>
+
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003201" class="pill-button dark"  target="_blank" >Developing Microsoft Azure Solutions (70-532) – Curriculum</a>
+
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003820" class="pill-button dark"  target="_blank" >DXC ITSM Foundation Training (ITIL® Foundation)</a>
+
+<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003141?context=user&learnerId=emplo000000000226296" class="pill-button dark"  target="_blank" >AWS Certified SysOps Administrator - Associate Level Curriculum</a>
+
+
 
                           </td>
                       </tr>
