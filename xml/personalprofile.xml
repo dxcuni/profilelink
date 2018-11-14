@@ -19,7 +19,7 @@
 			   var URLVaraibale =	"/Saba/Web_spf/NA3T1SNB0081/common/profile/"
 		   /* Global Varaibles END */ 
 		   viewData = gadgets.views.getParams();   
-
+//alert("shakeeTest444");
 		   // sabaCertificate =  viewData.sabaContext.apiCertificate;
 		    userName = $.trim(viewData.sabaContext.userName);			
 		    employeeID = $.trim(viewData.sabaContext.userId) ;			
@@ -50,38 +50,38 @@
 			<tbody>
 
 				<tr>
-					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:5px; padding-right:3px; font-family: arial; vertical-align: middle;">
-					<a href="" target="_blank" id="profile" ><div id="ex2"><img src="../res/images/Profile.jpg" class="imgBox" /></div></a>
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:5px; padding-right:1px; font-family: arial; vertical-align: middle;">
+					<div id="ex2"><a href="" target="_blank" id="profile" ><img src="../res/images/Profile.jpg" class="imgBox" /></a></div>
 					</td>
-					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:10px; padding-bottom:5px; padding-right:0px; font-family: arial; vertical-align: middle;">
-					<a href="" target="_blank" id="lerning" ><div id="ex2"><img src="../res/images/Learning.jpg" class="imgBox" /></div></a>
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:5px; padding-right:0px; font-family: arial; vertical-align: middle;">
+					<div id="ex2"><a href="" target="_blank" id="lerning" ><img src="../res/images/Learning.jpg" class="imgBox" /></a></div>
 					</td>
 				</tr>
 				 <tr>				
-					<td style="text-align: center; color: #000000; padding-top: 10px; padding-left:1px; padding-bottom:10px; padding-right:3px; font-family: arial; vertical-align: middle;">
-					<a href="" target="_blank" id="plan" ><div id="ex2"><img src="../res/images/Plan.jpg" class="imgBox" /></div></a>
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:5px; padding-right:1px; font-family: arial; vertical-align: middle;">
+					<a href="" target="_blank" id="plan" ><div id="ex2"><img src="../res/images/Plan.jpg" class="imgBox" /></a></div>
 					</td>
-					<td style="text-align: center; color: #000000; padding-top: 10px; padding-left:10px; padding-bottom:10px; padding-right:0px; font-family: arial; vertical-align: middle;">
-					<a href="" target="_blank" id="reward" ><div id="ex2"><img src="../res/images/myrewards.jpg" class="imgBox" /></div></a>
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:5px; padding-right:0px; font-family: arial; vertical-align: middle;">
+					<div id="ex2"><a href="" target="_blank" id="reward" ><img src="../res/images/myrewards.jpg" class="imgBox" /></div></a>
 					</td>
 				</tr>
-				
+
                 <tr>				
 					<td colspan="2" style="text-align: center; color: #000000; padding-top: 1px; padding-left:1px; padding-bottom:1px; padding-right:1px; font-family: arial; vertical-align: middle;">
-					<a href="" id="skill" target="_blank"><div id="ex2"><img src="../res/images/SkillManagemant.jpg" class="imgBox" width="322px;" height="68px;" /></div></a>
+					<div id="ex2"><a href="" id="skill" target="_blank"><img src="../res/images/SkillManagemant.jpg" class="imgBox" width="295px;" height="68px;" /></a></div>
 					</td>
 					
 				</tr>
                  <tr>				
-					<td colspan="2" style="text-align: center; color: #000000; padding-top: 1px; padding-left:1px; padding-bottom:1px; padding-right:1px; font-family: arial; vertical-align: middle;">
-					<a href="https://csc.skillport.com/skillportfe/main.action#whatshappening" target="_blank"><div id="ex2"><img src="../res/images/SkillPortalContent.jpg" class="imgBox" width="322px;" height="68px;" /></div></a>
+					<td colspan="2" style="text-align: center; color: #000000; padding-top: 3px; padding-left:1px; padding-bottom:1px; padding-right:1px; font-family: arial; vertical-align: middle;">
+					<a href="https://csc.skillport.com/skillportfe/main.action#whatshappening" target="_blank"><div id="ex2"><img src="../res/images/SkillPortalContent.jpg" class="imgBox" width="295px;" height="68px;" /></div></a>
 					</td>
 					
 				</tr>
                 <tr>
                  <td style="vertical-align:top;" colspan="2" >                
                     <!--BEGIN QUICK LINKS-->
-                    <table><tr><td style="vertical-align: middle;border: 0px solid black;  height: 231px; width:327px;">
+                    <table><tr><td style="vertical-align: middle;border: 0px solid black;  height: 231px; width:300px;">
                    <span style="font-size: 23px; color: #000000; font-family: arial;">Quick Links</span>
                     <p><span style="margin-left: 0px; font-size: 14pt; color: #000000;">
                           &nbsp;-<a style="margin-left: 10px; color: black; font-family: arial; font-size: 14pt;" title="DXC University" href="https://my.dxc.com/employee-resources/dxc-university.html">DXC University - myDXC</a>
@@ -95,25 +95,31 @@
                     </td></tr></table>
                     <!--END QUICK LINKS-->
                 </td>
-               </tr>
+
+             </tr>
+
+
                 <tr>
-					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:5px; padding-right:3px; font-family: arial; vertical-align: middle;">
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:5px; padding-right:2px; font-family: arial; vertical-align: middle;">
 					<a href="https://csc.skillport.com/skillportfe/main.action?path=browsecatalog/en/_fcpaths_L0NTQ19Qcm9kdWN0c18mX1Jlc291cmNlc19xdzBoL2N1c3RvbS1MZWFybmluZ19HdWlkZXM._fcpathe_" target="_blank" ><div id="ex2"><img src="../res/images/learningGuides.jpg" class="imgBox" /></div></a>
 					</td>
-					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:10px; padding-bottom:5px; padding-right:0px; font-family: arial; vertical-align: middle;">
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:2px; padding-bottom:5px; padding-right:0px; font-family: arial; vertical-align: middle;">
 					<a href="https://my.dxc.com/employee-resources/dxc-university/overview/fsdlp.html" target="_blank" ><div id="ex2"><img src="../res/images/FullStack.jpg" class="imgBox" /></div></a>
 					</td>
 				</tr>
 				 <tr>				
-					<td style="text-align: center; color: #000000; padding-top: 10px; padding-left:1px; padding-bottom:10px; padding-right:3px; font-family: arial; vertical-align: middle;">
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:10px; padding-right:2px; font-family: arial; vertical-align: middle;">
 					<a href="https://my.dxc.com/employee-resources/dxc-university/overview/dxcuvirtualpracticelabs.html" target="_blank"  ><div id="ex2"><img src="../res/images/virtualLab.jpg" class="imgBox" /></div></a>
 					</td>
-					<td style="text-align: center; color: #000000; padding-top: 10px; padding-left:10px; padding-bottom:10px; padding-right:0px; font-family: arial; vertical-align: middle;">
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:2px; padding-bottom:5px; padding-right:0px; font-family: arial; vertical-align: middle;">
 					<a href="https://my.dxc.com/employee-resources/dxc-university/DXCUBadges.html" target="_blank"  ><div id="ex2"><img src="../res/images/dxcUniversity.jpg" class="imgBox" /></div></a>
 					</td>
 				</tr>
+
+
 			</tbody>
 			</table>
+			
 			
                 <script type="text/javascript" language="javascript">
                     $("a#profile").attr("href", MyProfileURL);
