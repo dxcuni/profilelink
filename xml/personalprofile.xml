@@ -66,15 +66,15 @@
 					</td>
 				</tr>
 
-                <tr>				
+               			 <tr>				
 					<td colspan="2" style="text-align: center; color: #000000; padding-top: 1px; padding-left:1px; padding-bottom:1px; padding-right:1px; font-family: arial; vertical-align: middle;">
-					<div id="ex2"><a href="" id="skill" target="_blank"><img src="../res/images/SkillManagemant.jpg" class="imgBox" width="295px;" height="68px;" /></a></div>
+					<div id="ex2"><a href="" id="skill" target="_blank"><img src="../res/images/SkillManagemant.jpg" class="imgBox" width="292px;" height="68px;" /></a></div>
 					</td>
 					
 				</tr>
-                 <tr>				
+               			<tr>				
 					<td colspan="2" style="text-align: center; color: #000000; padding-top: 3px; padding-left:1px; padding-bottom:1px; padding-right:1px; font-family: arial; vertical-align: middle;">
-					<a href="https://csc.skillport.com/skillportfe/main.action#whatshappening" target="_blank"><div id="ex2"><img src="../res/images/SkillPortalContent.jpg" class="imgBox" width="295px;" height="68px;" /></div></a>
+					<a href="https://csc.skillport.com/skillportfe/main.action#whatshappening" target="_blank"><div id="ex2"><img src="../res/images/SkillPortalContent.jpg" class="imgBox" width="292px;" height="68px;" /></div></a>
 					</td>
 					
 				</tr>
