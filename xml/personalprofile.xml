@@ -46,35 +46,35 @@
          </style>		
 	    <!-- Search Box Start-->
 		
-		    <table style="border: 0px solid black;">
+		     <table style="border: 0px solid black;">
 			<tbody>
 
 				<tr>
 					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:5px; padding-right:1px; font-family: arial; vertical-align: middle;">
-					<div id="ex2"><a href="" target="_blank" id="profile" ><img src="../res/images/Profile.jpg" class="imgBox" /></a></div>
+					<div id="ex2"><a href="" target="_blank" id="profile" ><img src="../res/images/MyProfile.png" class="imgBox" width="139px;" height="68px;"  /></a></div>
 					</td>
 					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:5px; padding-right:0px; font-family: arial; vertical-align: middle;">
-					<div id="ex2"><a href="" target="_blank" id="lerning" ><img src="../res/images/Learning.jpg" class="imgBox" /></a></div>
+					<div id="ex2"><a href="" target="_blank" id="lerning" ><img src="../res/images/MyCompletedLearning.png" class="imgBox" width="139px;" height="68px;" /></a></div>
 					</td>
 				</tr>
 				 <tr>				
 					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:5px; padding-right:1px; font-family: arial; vertical-align: middle;">
-					<a href="" target="_blank" id="plan" ><div id="ex2"><img src="../res/images/Plan.jpg" class="imgBox" /></a></div>
+					<a href="" target="_blank" id="plan" ><div id="ex2"><img src="../res/images/MyPlan.png" class="imgBox" width="139px;" height="68px;" /></a></div>
 					</td>
 					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:5px; padding-right:0px; font-family: arial; vertical-align: middle;">
-					<div id="ex2"><a href="" target="_blank" id="reward" ><img src="../res/images/myrewards.jpg" class="imgBox" /></div></a>
+					<div id="ex2"><a href="" target="_blank" id="reward" ><img src="../res/images/MyRewards.png" class="imgBox" width="139px;" height="68px;"/></div></a>
 					</td>
 				</tr>
 
                			 <tr>				
 					<td colspan="2" style="text-align: center; color: #000000; padding-top: 1px; padding-left:1px; padding-bottom:1px; padding-right:1px; font-family: arial; vertical-align: middle;">
-					<div id="ex2"><a href="" id="skill" target="_blank"><img src="../res/images/SkillManagemant.jpg" class="imgBox" width="292px;" height="68px;" /></a></div>
+					<div id="ex2"><a href="" id="skill" target="_blank"><img src="../res/images/SkillsMngmt.png" class="imgBox" width="292px;" height="68px;" /></a></div>
 					</td>
 					
 				</tr>
                			<tr>				
 					<td colspan="2" style="text-align: center; color: #000000; padding-top: 3px; padding-left:1px; padding-bottom:1px; padding-right:1px; font-family: arial; vertical-align: middle;">
-					<a href="https://csc.skillport.com/skillportfe/main.action#whatshappening" target="_blank"><div id="ex2"><img src="../res/images/SkillPortalContent.jpg" class="imgBox" width="292px;" height="68px;" /></div></a>
+					<a href="https://csc.skillport.com/skillportfe/main.action#whatshappening" target="_blank"><div id="ex2"><img src="../res/images/AccessToskillsoft.png" class="imgBox" width="292px;" height="68px;" /></div></a>
 					</td>
 					
 				</tr>
@@ -101,18 +101,18 @@
 
                 <tr>
 					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:5px; padding-right:2px; font-family: arial; vertical-align: middle;">
-					<a href="https://csc.skillport.com/skillportfe/main.action?path=browsecatalog/en/_fcpaths_L0NTQ19Qcm9kdWN0c18mX1Jlc291cmNlc19xdzBoL2N1c3RvbS1MZWFybmluZ19HdWlkZXM._fcpathe_" target="_blank" ><div id="ex2"><img src="../res/images/learningGuides.jpg" class="imgBox" /></div></a>
+					<a href="https://csc.skillport.com/skillportfe/main.action?path=browsecatalog/en/_fcpaths_L0NTQ19Qcm9kdWN0c18mX1Jlc291cmNlc19xdzBoL2N1c3RvbS1MZWFybmluZ19HdWlkZXM._fcpathe_" target="_blank" ><div id="ex2"><img src="../res/images/LearningGuides.png" class="imgBox" width="139px;" height="68px;"/></div></a>
 					</td>
 					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:5px; padding-right:0px; font-family: arial; vertical-align: middle;">
-					<a href="https://my.dxc.com/employee-resources/dxc-university/overview/fsdlp.html" target="_blank" ><div id="ex2"><img src="../res/images/FullStack.jpg" class="imgBox" /></div></a>
+					<a href="https://my.dxc.com/employee-resources/dxc-university/overview/fsdlp.html" target="_blank" ><div id="ex2"><img src="../res/images/FullStack.png" class="imgBox" width="139px;" height="68px;"/></div></a>
 					</td>
 				</tr>
 				 <tr>				
 					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:10px; padding-right:2px; font-family: arial; vertical-align: middle;">
-					<a href="https://my.dxc.com/employee-resources/dxc-university/overview/dxcuvirtualpracticelabs.html" target="_blank"  ><div id="ex2"><img src="../res/images/virtualLab.jpg" class="imgBox" /></div></a>
+					<a href="https://my.dxc.com/employee-resources/dxc-university/overview/dxcuvirtualpracticelabs.html" target="_blank"  ><div id="ex2"><img src="../res/images/VitualPLabs.png" class="imgBox" width="139px;" height="68px;" /></div></a>
 					</td>
 					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:5px; padding-right:0px; font-family: arial; vertical-align: middle;">
-					<a href="https://my.dxc.com/employee-resources/dxc-university/DXCUBadges.html" target="_blank"  ><div id="ex2"><img src="../res/images/dxcUniversity.jpg" class="imgBox" /></div></a>
+					<a href="https://my.dxc.com/employee-resources/dxc-university/DXCUBadges.html" target="_blank"  ><div id="ex2"><img src="../res/images/UBadges.png" class="imgBox" width="139px;" height="68px;"/></div></a>
 					</td>
 				</tr>
 
