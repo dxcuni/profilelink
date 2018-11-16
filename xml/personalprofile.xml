@@ -30,7 +30,7 @@
             MyCompLearningURL = currentURLHost+URLVaraibale+"learningtranscripts/"+employeeID;
 		    MyPlanURL = currentURLHost+URLVaraibale+"plans/"+employeeID	;
 		    MySkillManagementURL = "https://my.dxc.com/our-company/global-functions/integrated-workforce-management/analytics-and-intelligence/dxc-skills-management.html";
-			MyRewards = currentURLHost+URLVaraibale+"rewards/"+employeeID;
+			MyRewards = currentURLHost+URLVaraibale+"rewards/"+employeeID+"/#/me/reward";
 			//alert(currentURL +" -- "+currentURLHost );			
 	   // gadgets.util.registerOnLoadHandler(init);
 	   
