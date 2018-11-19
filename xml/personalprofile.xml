@@ -53,31 +53,31 @@
 			<tbody>
 
 				<tr>
-					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:5px; padding-right:0px;  vertical-align: middle;">
-					<div id="ex2"><a href="" target="_blank" id="profile" ><img src="../res/images/MyProfile.png" class="imgBox" width="139px;" height="68px;"  /></a></div>
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:6px; padding-right:0px;  vertical-align: middle;">
+					<div id="ex2"><a href="" target="_blank" id="profile" ><img src="../res/images/MyProfile.png" class="imgBox" width="141px;" height="68px;"  /></a></div>
 					</td>
-					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:5px; padding-right:0px;  vertical-align: middle;">
-					<div id="ex2"><a href="" target="_blank" id="lerning" ><img src="../res/images/MyCompletedLearning.png" class="imgBox" width="139px;" height="68px;" /></a></div>
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:6px; padding-right:0px;  vertical-align: middle;">
+					<div id="ex2"><a href="" target="_blank" id="lerning" ><img src="../res/images/MyCompletedLearning.png" class="imgBox" width="141px;" height="68px;" /></a></div>
 					</td>
 				</tr>
 				 <tr>				
-					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:5px; padding-right:0px;  vertical-align: middle;">
-					<a href="" target="_blank" id="plan" ><div id="ex2"><img src="../res/images/MyPlan.png" class="imgBox" width="139px;" height="68px;" /></a></div>
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:6px; padding-right:0px;  vertical-align: middle;">
+					<a href="" target="_blank" id="plan" ><div id="ex2"><img src="../res/images/MyPlan.png" class="imgBox" width="141px;" height="68px;" /></a></div>
 					</td>
-					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:5px; padding-right:0px;  vertical-align: middle;">
-					<div id="ex2"><a href="" target="_blank" id="recommen" ><img src="../res/images/MyRecommendations.png" class="imgBox" width="139px;" height="68px;"/></div>
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:6px; padding-right:0px;  vertical-align: middle;">
+					<div id="ex2"><a href="" target="_blank" id="recommen" ><img src="../res/images/MyRecommendations.png" class="imgBox" width="141px;" height="68px;"/></div>
 					</td>
 				</tr>
 
                			 <tr>				
-					<td colspan="2" style="text-align: center; color: #000000; padding-top: 1px; padding-left:1px; padding-bottom:1px; padding-right:1px;  vertical-align: middle;">
-					<div id="ex2"><a href="" id="skill" target="_blank"><img src="../res/images/SkillsMngmt.png" class="imgBox" width="290px;" height="68px;" /></a></div>
+					<td colspan="2" style="text-align: center; color: #000000; padding-top: 1px; padding-left:1px; padding-bottom:3px; padding-right:1px;  vertical-align: middle;">
+					<div id="ex2"><a href="" id="skill" target="_blank"><img src="../res/images/SkillsMngmt.png" class="imgBox" width="295px;" height="68px;" /></a></div>
 					</td>
 					
 				</tr>
                			<tr>				
-					<td colspan="2" style="text-align: center; color: #000000; padding-top: 3px; padding-left:1px; padding-bottom:1px; padding-right:1px;  vertical-align: middle;">
-					<a href="https://csc.skillport.com/skillportfe/main.action#whatshappening" target="_blank"><div id="ex2"><img src="../res/images/AccessToskillsoft.png" class="imgBox" width="290px;" height="68px;" /></div></a>
+					<td colspan="2" style="text-align: center; color: #000000; padding-top: 3px; padding-left:1px; padding-bottom:3px; padding-right:1px;  vertical-align: middle;">
+					<a href="https://csc.skillport.com/skillportfe/main.action#whatshappening" target="_blank"><div id="ex2"><img src="../res/images/AccessToskillsoft.png" class="imgBox" width="295px;" height="68px;" /></div></a>
 					</td>
 					
 				</tr>
@@ -87,7 +87,7 @@
                     <!--BEGIN QUICK LINKS-->
                          <table style="vertical-align:central ;border: 0px solid black;  color: #000000;  text-align:center; text-align:justify;height: 100%; width:307px;" >
                         <tr><td colspan="2">
-                         <span style="font-size: 23px; color: #000000; ">Quick Links</span>
+                         <span style="font-size: 23px; color: #000000; ">Quick Links 12</span>
                         </td></tr><tr><td>                  
                     <svg class="nc-icon nc-icon--play nc-icon--left" style="width:21px; height:21px;  "><use xlink:href="#icon-play"> </use></svg></td><td>&nbsp;<a style="margin-bottom:0px; margin-left: 0px; color: black; font-size: 14pt; text-decoration:none;" title="DXC University" href="https://my.dxc.com/employee-resources/dxc-university.html">DXC University - myDXC</a>
                             </td></tr><tr><td>
@@ -109,18 +109,18 @@
 
 
                               <tr>
-					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:5px; padding-right:1px;  vertical-align: middle;">
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:7px; padding-right:1px;  vertical-align: middle;">
 					<a href="https://csc.skillport.com/skillportfe/main.action?path=browsecatalog/en/_fcpaths_L0NTQ19Qcm9kdWN0c18mX1Jlc291cmNlc19xdzBoL2N1c3RvbS1MZWFybmluZ19HdWlkZXM._fcpathe_" target="_blank" ><div id="ex2"><img src="../res/images/LearningGuides.png" class="imgBox" width="139px;" height="68px;"/></div></a>
 					</td>
-					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:5px; padding-right:0px;  vertical-align: middle;">
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:7px; padding-right:0px;  vertical-align: middle;">
 					<a href="https://my.dxc.com/employee-resources/dxc-university/overview/fsdlp.html" target="_blank" ><div id="ex2"><img src="../res/images/FullStack.png" class="imgBox" width="139px;" height="68px;"/></div></a>
 					</td>
 				</tr>
 				 <tr>				
-					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:10px; padding-right:1px;  vertical-align: middle;">
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:7px; padding-right:1px;  vertical-align: middle;">
 					<a href="https://my.dxc.com/employee-resources/dxc-university/overview/dxcuvirtualpracticelabs.html" target="_blank"  ><div id="ex2"><img src="../res/images/VitualPLabs.png" class="imgBox" width="139px;" height="68px;" /></div></a>
 					</td>
-					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:5px; padding-right:0px;  vertical-align: middle;">
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:7px; padding-right:0px;  vertical-align: middle;">
 					<a href="https://my.dxc.com/employee-resources/dxc-university/DXCUBadges.html" target="_blank"  ><div id="ex2"><img src="../res/images/UBadges.png" class="imgBox" width="139px;" height="68px;"/></div></a>
 					</td>
 				</tr>
