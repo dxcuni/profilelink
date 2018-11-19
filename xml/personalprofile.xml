@@ -16,7 +16,8 @@
 			   var sabaCertificate ;
 			   var employeeID ;
 			   var userName ;
-			   var URLVaraibale =	"/Saba/Web_spf/NA3T1SNB0081/common/profile/"
+			   var URLVaraibale =	"/Saba/Web_spf/NA3T1SNB0081/common/"
+			   
 		   /* Global Varaibles END */ 
 		   viewData = gadgets.views.getParams();   
 //alert("shakeeTest444");
@@ -26,11 +27,12 @@
 		    currentURL = $(location).attr('href');
 		    currentURLHost = $(location).attr('protocol')+"//"+$(location).attr('hostname');
 			
-    		MyProfileURL = currentURLHost+URLVaraibale+"basicinfo/"+employeeID;	
-            MyCompLearningURL = currentURLHost+URLVaraibale+"learningtranscripts/"+employeeID;
-		    MyPlanURL = currentURLHost+URLVaraibale+"plans/"+employeeID	;
+    		    MyProfileURL = currentURLHost+URLVaraibale+"profile/basicinfo/"+employeeID;	
+                    MyCompLearningURL = currentURLHost+URLVaraibale+"profile/learningtranscripts/"+employeeID;
+		    MyPlanURL = currentURLHost+URLVaraibale+"profile/plans/"+employeeID	;
 		    MySkillManagementURL = "https://my.dxc.com/our-company/global-functions/integrated-workforce-management/analytics-and-intelligence/dxc-skills-management.html";
-			MyRewards = currentURLHost+URLVaraibale+"rewards/"+employeeID;
+		    //MyRewards = currentURLHost+URLVaraibale+"profile/rewards/"+employeeID;
+                    MyRecommendation = currentURLHost+URLVaraibale+"recommendations/"+employeeID;
 			//alert(currentURL +" -- "+currentURLHost );			
 	   // gadgets.util.registerOnLoadHandler(init);
 	   
@@ -62,7 +64,7 @@
 					<a href="" target="_blank" id="plan" ><div id="ex2"><img src="../res/images/MyPlan.png" class="imgBox" width="139px;" height="68px;" /></a></div>
 					</td>
 					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:5px; padding-right:0px;  vertical-align: middle;">
-					<div id="ex2"><!--<a href="#" target="_blank" id="reward" >--><img src="../res/images/MyRewards.png" class="imgBox" width="139px;" height="68px;"/></div>
+					<div id="ex2"><a href="" target="_blank" id="recommen" ><img src="../res/images/MyRecommendations.png" class="imgBox" width="139px;" height="68px;"/></div>
 					</td>
 				</tr>
 
@@ -84,7 +86,7 @@
                     <table ><tr><td style="vertical-align: middle;border: 0px solid black;  height: 230px; width:300px;">
                     <span style="font-size: 23px; color: #000000; ">Quick Links 123</span>
                   <p><span style="margin-left: 0px; font-size: 14pt; color: #000000;">
-                          <svg class="nc-icon nc-icon--play nc-icon--left" style="width:25px; height:21px; "><use xlink:href="#icon-play"></use></svg>&nbsp;<center><a style="margin-bottom:7px; margin-left: 0px; color: black; font-size: 14pt;" title="DXC University" href="https://my.dxc.com/employee-resources/dxc-university.html">DXC University - myDXC</a></center>
+                          <svg class="nc-icon nc-icon--play nc-icon--left" style="width:25px; height:21px; "><use xlink:href="#icon-play"></use></svg>&nbsp;<a style="margin-bottom:7px; margin-left: 0px; color: black; font-size: 14pt;" title="DXC University" href="https://my.dxc.com/employee-resources/dxc-university.html">DXC University - myDXC</a>
                     <br /><svg class="nc-icon nc-icon--play nc-icon--left" style="width:25px; height:21px; "><use xlink:href="#icon-play"></use></svg>&nbsp;<a style="margin-bottom:7px; margin-left: 0px; color: black; font-size: 14pt;" title="DXC Onboarding" href="https://my.dxc.com/onboarding/home.html" target="_blank">DXC Onboarding</a> 
                     <br /><svg class="nc-icon nc-icon--play nc-icon--left" style="width:25px; height:21px; "><use xlink:href="#icon-play"></use></svg>&nbsp;<a style="margin-bottom:7px; margin-left: 0px; color: black; font-size: 14pt;" title="DXC Partner Network Training" href="https://my.dxc.com/our-company/dxc-partner-network/dxc-partner-training.html">DXC Partner Network Training</a>
                     <br /><svg class="nc-icon nc-icon--play nc-icon--left" style="width:25px; height:21px; "><use xlink:href="#icon-play"></use></svg>&nbsp;<a style="margin-bottom:7px; margin-left: 0px; color: black; font-size: 14pt;" title="Business English Program" href="https://my.dxc.com/dxc-university/BusEnglish" target="_blank">Business English Program</a> 
@@ -138,7 +140,9 @@
                     $("a#lerning").attr("href", MyCompLearningURL);
                     $("a#plan").attr("href", MyPlanURL);
                     $("a#skill").attr("href", MySkillManagementURL);
-					$("a#reward").attr("href", MyRewards);
+		    $("a#recommen").attr("href", MyRecommendation);
+	    	   
+
                 </script>		
 
 	      
