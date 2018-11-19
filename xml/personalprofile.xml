@@ -46,10 +46,10 @@
 			border: 1px solid black; 
 		}        
          </style>		
-	    <!-- Search Box Start-->
+	    
 		
 		     
-<table style="border: 0px solid black;">
+        <table style="border: 0px solid black;">
 			<tbody>
 
 				<tr>
@@ -85,7 +85,7 @@
                 <tr>
                    <td style="vertical-align:top;" colspan="2" >                
                     <!--BEGIN QUICK LINKS-->
-                         <table style="vertical-align:central ;border: 0px solid black;  color: #000000;  text-align:center; text-align:justify;height: 100%; width:307px;" >
+                         <table style="vertical-align:central ;border: 0px solid black;  color: #000000;  text-align:center; text-align:justify;height: 100%; width:300px;" >
                         <tr><td colspan="2">
                          <span style="font-size: 23px; color: #000000; ">Quick Links 12</span>
                         </td></tr><tr><td>                  
@@ -135,7 +135,7 @@
 				</tr>
 			</tbody>
 			</table>
-			
+<!-- Yellow Button Box START-->
  <svg style="width: 0px; height: 0px; overflow: hidden; position: absolute;" version="1.1">
         <defs>
             <symbol id="icon-play" viewBox="0 0 200 200">
@@ -144,6 +144,7 @@
             </symbol>
         </defs>
     </svg>
+<!-- Yellow Button Box END-->
                 <script type="text/javascript" language="javascript">
                     $("a#profile").attr("href", MyProfileURL);
                     $("a#lerning").attr("href", MyCompLearningURL);
@@ -155,7 +156,7 @@
                 </script>		
 
 	      
-	    <!-- Search Box END-->
+	    
 	
 	    </script>
 	  ]]>
