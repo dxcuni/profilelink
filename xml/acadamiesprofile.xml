@@ -97,7 +97,7 @@
             $.ajax({
                 type: "GET",
                // url: "../res/xml/Recent.xml",
-		url: "https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/xml/Recent.xml",
+		url: "https://raw.githubusercontent.com/dxcuni/profilelink/master/res/xml/Recent.xml",
                 dataType: "xml",
                 success: function (xml) {                    
                     $(xml).find('course').each(function () {                    
@@ -120,7 +120,7 @@
             $.ajax({
                 type: "GET",
                 //url: "../res/xml/Popular.xml",
-		url: "https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/xml/Popular.xml",
+		url: "https://raw.githubusercontent.com/dxcuni/profilelink/master/res/xml/Popular.xml",
                 dataType: "xml",
                 success: function (xml) {
                     $(xml).find('course').each(function () {
@@ -144,7 +144,7 @@
             $.ajax({
                 type: "GET",
                 //url: "../res/xml/PopularCourseQuarter.xml",
-		url: "https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/xml/PopularCourseQuarter.xml",
+		url: "https://raw.githubusercontent.com/dxcuni/profilelink/master/res/xml/PopularCourseQuarter.xml",
                 dataType: "xml",
                 success: function (xml) {
                     $(xml).find('course').each(function () {
@@ -166,16 +166,16 @@
 		  <table>
           <tr>
               <td style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;"> 
-                 <div id="ex2"><a href="https://my.dxc.com/dxc-university/DXCBusSkills" target="_blank"  ><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png" style="width:220px; " /></a></div>
+                 <div id="ex2"><a href="https://my.dxc.com/dxc-university/DXCBusSkills" target="_blank"  ><img src="https://raw.githubusercontent.com/dxcuni/profilelink/master/res/images/BSA_IC_04.png" style="width:220px; " /></a></div>
               </td>
               <td style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;">  
-                  <div id="ex2"> <a href="https://my.dxc.com/dxc-university/DXCDigitalAcademy" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/DSA_IC_04.png"   style="width:220px; "/></a></div>
+                  <div id="ex2"> <a href="https://my.dxc.com/dxc-university/DXCDigitalAcademy" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/master/res/images/DSA_IC_04.png"   style="width:220px; "/></a></div>
               </td>
               <td style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;"> 
-                 <div id="ex2"><a href="https://my.dxc.com/employee-resources/dxc-university/dxcleadershipacademy0.html" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/LSA_IC_04.png"   style="width:220px; " /></a></div>
+                 <div id="ex2"><a href="https://my.dxc.com/employee-resources/dxc-university/dxcleadershipacademy0.html" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/master/res/images/LSA_IC_04.png"   style="width:220px; " /></a></div>
               </td>
               <td  style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;"> 
-                 <div id="ex2"><a href="https://my.dxc.com/employee-resources/dxc-university/dxcsalesacademy.html" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/SSA_IC_04.png"   style="width:220px; "/></a></div>
+                 <div id="ex2"><a href="https://my.dxc.com/employee-resources/dxc-university/dxcsalesacademy.html" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/master/res/images/SSA_IC_04.png"   style="width:220px; "/></a></div>
                   
               </td>
           </tr>
@@ -196,7 +196,7 @@
                   <table>
                       <tr>
 		  <td>
-			<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/dxc_icon_blogpost_blk_rgb_300ppi.png" width="100px;" height="100px;" />
+			<img src="https://raw.githubusercontent.com/dxcuni/profilelink/master/res/images/dxc_icon_blogpost_blk_rgb_300ppi.png" width="100px;" height="100px;" />
 		  </td>
                   <td>
 			<div id="divRecentCourse">
@@ -220,7 +220,7 @@
                   <table>
                       <tr>
   			<td>
-			<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/dxc_icon_learndiscoverfindoutmore_blk_rgb_300ppi.png" width="100px;" height="100px;" />
+			<img src="https://raw.githubusercontent.com/dxcuni/profilelink/master/res/images/dxc_icon_learndiscoverfindoutmore_blk_rgb_300ppi.png" width="100px;" height="100px;" />
 		       </td>
                                 <td>
 					<div id="divPopularCourse">
@@ -244,7 +244,7 @@
                   <table>
                       <tr>
 		      <td>
-			<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/dxc_icon_accelerate_blk_rgb_300ppi.png" width="100px;" height="100px;" />
+			<img src="https://raw.githubusercontent.com/dxcuni/profilelink/master/res/images/dxc_icon_accelerate_blk_rgb_300ppi.png" width="100px;" height="100px;" />
 		       </td>
                            <td>
 				<div id="divPopularCourseQuarter">
