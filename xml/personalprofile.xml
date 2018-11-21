@@ -67,7 +67,7 @@
 					<a href="" target="_blank" id="plan" ><div id="ex2"><img src="../res/images/MyPlan.png" class="imgBox" width="141px;" height="68px;" /></a></div>
 					</td>
 					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:6px; padding-right:0px;  vertical-align: middle;">
-					<div id="ex2"><a href="" target="_blank" id="recommen" ><img src="../res/images/MyRecommendations.png" class="imgBox" width="141px;" height="68px;"/></div>
+					<!--<div id="ex2"><a href="" target="_blank" id="recommen" ><img src="../res/images/MyRecommendations.png" class="imgBox" width="141px;" height="68px; "/></div>-->
 					</td>
 				</tr>
 
@@ -140,7 +140,7 @@
 
 				<tr>				
 					    <td colspan="2" style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:0px; padding-right:0px;  vertical-align: middle; " width="300px">
-                        		    <span style="font-size: 18px; color: #000000; "><br />
+                        		    <span style="font-size: 18px; color: #000000; "><br /><br />
 					    <a href="https://my.dxc.com/our-company/global-functions/integrated-workforce-management/analytics-and-intelligence/dxc-skills-management.html" target="_blank" style="margin-left: 0px; color: black;  font-size: 14pt;" >
                        			       DXC Skills Taxonomy: Capability will become Service Offering/ CAP- will become SO
                         		    </a></span>
