@@ -96,7 +96,8 @@
             var strTable = ''
             $.ajax({
                 type: "GET",
-                url: "../res/xml/Recent.xml",
+               // url: "../res/xml/Recent.xml",
+		url: "https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/xml/Recent.xml",
                 dataType: "xml",
                 success: function (xml) {                    
                     $(xml).find('course').each(function () {                    
@@ -118,7 +119,8 @@
             var strTable = ''
             $.ajax({
                 type: "GET",
-                url: "../res/xml/Popular.xml",
+                //url: "../res/xml/Popular.xml",
+		url: "https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/xml/Popular.xml",
                 dataType: "xml",
                 success: function (xml) {
                     $(xml).find('course').each(function () {
@@ -141,7 +143,8 @@
             var strTable = ''
             $.ajax({
                 type: "GET",
-                url: "../res/xml/PopularCourseQuarter.xml",
+                //url: "../res/xml/PopularCourseQuarter.xml",
+		url: "https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/xml/PopularCourseQuarter.xml",
                 dataType: "xml",
                 success: function (xml) {
                     $(xml).find('course').each(function () {
