@@ -88,7 +88,77 @@
 		}
 		
          </style>		
-	    <!-- Acdemic  Box Start-->
+	    <!--<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' type='text/javascript'></script>	-->
+        <script src='../res/js/jquery.min.js' type='text/javascript'></script>
+	    <script type="text/javascript">
+	        //Recent Course XML PArsing  Starts
+        $(document).ready(function () {
+            var strTable = ''
+            $.ajax({
+                type: "GET",
+                url: "../res/xml/Recent.xml",
+                dataType: "xml",
+                success: function (xml) {                    
+                    $(xml).find('course').each(function () {                    
+                        var strHeading = $(this).attr('heading');
+                        var strURL = $(this).attr('url');                    
+                        strTable += '<a href=""' + strURL + '"" class="pill-button dark"  target="_blank" >' + strHeading + '</a>';
+                    });
+                    
+                    $('#divRecentCourse').append(strTable);
+                },
+                error: function () {
+                    alert("An error occurred while processing XML file." + Response);
+                }
+            });
+        });
+	        //Recent Course XML PArsing  End
+	        //Popular Course XML PArsing  Starts
+        $(document).ready(function () {
+            var strTable = ''
+            $.ajax({
+                type: "GET",
+                url: "../res/xml/Popular.xml",
+                dataType: "xml",
+                success: function (xml) {
+                    $(xml).find('course').each(function () {
+                        var strHeading = $(this).attr('heading');
+                        var strURL = $(this).attr('url');
+                        strTable += '<a href=""' + strURL + '"" class="pill-button dark"  target="_blank" >' + strHeading + '</a>';
+                    });
+
+                    $('#divPopularCourse').append(strTable);
+                },
+                error: function () {
+                    alert("An error occurred while processing XML file." + Response);
+                }
+            });
+        });
+	        //Popular Course XML PArsing  END
+
+	        //PopularCourseQuarter Course XML PArsing  Starts
+        $(document).ready(function () {
+            var strTable = ''
+            $.ajax({
+                type: "GET",
+                url: "../res/xml/PopularCourseQuarter.xml",
+                dataType: "xml",
+                success: function (xml) {
+                    $(xml).find('course').each(function () {
+                        var strHeading = $(this).attr('heading');
+                        var strURL = $(this).attr('url');
+                        strTable += '<a href=""' + strURL + '"" class="pill-button dark"  target="_blank" >' + strHeading + '</a>';
+                    });
+
+                    $('#divPopularCourseQuarter').append(strTable);
+                },
+                error: function () {
+                    alert("An error occurred while processing XML file." + Response);
+                }
+            });
+        });
+	        //PopularCourseQuarter Course XML PArsing  END
+	        </script>
 		
 		  <table>
           <tr>
@@ -126,30 +196,10 @@
 			<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/dxc_icon_blogpost_blk_rgb_300ppi.png" width="100px;" height="100px;" />
 		  </td>
                   <td>
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003601" class="pill-button dark"  target="_blank" >Agile Beginner</a>
-
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003203" class="pill-button dark"  target="_blank" >Architecting Microsoft Azure Solutions (70-534) – Curriculum</a>
-
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003600" class="pill-button dark"  target="_blank" >Mobile Testing</a>
-
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003140" class="pill-button dark"  target="_blank" >AWS Certified Developer - Associate Level Curriculum</a>
-
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/ledetail/cours000000000177677" class="pill-button dark"  target="_blank" >RPA - UiPath Developer Foundation Program</a>
-
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003341" class="pill-button dark"  target="_blank" >AWS Certified Solutions Architect – Professional Level Curriculum</a>
-
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003980" class="pill-button dark"  target="_blank" >DevOps Dojo - Yellow Belt - First Stripe</a>
-
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003201" class="pill-button dark"  target="_blank" >Developing Microsoft Azure Solutions (70-532) – Curriculum</a>
-
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003820" class="pill-button dark"  target="_blank" >DXC ITSM Foundation Training (ITIL® Foundation)</a>
-
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003141?context=user&learnerId=emplo000000000226296" class="pill-button dark"  target="_blank" >AWS Certified SysOps Administrator - Associate Level Curriculum</a>
-
-
-
-                          </td>
-                      </tr>
+			<div id="divRecentCourse">
+                         </div>
+                   </td>
+                     </tr>
                   </table>
 				  <!--End: Featured Curriculum Recent Area --> 
               </td>
@@ -170,25 +220,9 @@
 			<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/dxc_icon_learndiscoverfindoutmore_blk_rgb_300ppi.png" width="100px;" height="100px;" />
 		       </td>
                                 <td>
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003160" class="pill-button dark"  target="_blank" >AWS Certified Solutions Architect - Associate Level Curriculum</a>
-
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003808" class="pill-button dark"  target="_blank" >DevOps Dojo - Green Belt</a>
-
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003521" class="pill-button dark"  target="_blank" >DevOps Dojo - White Belt</a>
-
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003860" class="pill-button dark"  target="_blank" >Digital Foundation</a>
-
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003640" class="pill-button dark"  target="_blank" >Digital Enablement Program - Phase 1</a>
-
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003900" class="pill-button dark"  target="_blank" >DXC Bionix Asset Training</a>
-
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003202" class="pill-button dark"  target="_blank" >Implementing Microsoft Azure Infrastructure Solutions (70-533) – Curriculum</a>
-
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003200" class="pill-button dark"  target="_blank" >Microsoft Azure Basics - Curriculum</a>
-
-<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003682" class="pill-button dark"  target="_blank" >Spartans White Belt 3.0</a>
-
-                          </td>
+					<div id="divPopularCourse">
+                                	</div>
+	                          </td>
                       </tr>
                   </table>
 				  <!--End: Featured Curriculum Popular Area --> 
@@ -210,37 +244,18 @@
 			<img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/dxc_icon_accelerate_blk_rgb_300ppi.png" width="100px;" height="100px;" />
 		       </td>
                            <td>
-<a href="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/cl_msaz_a01_it_enus" class="pill-button dark"  target="_blank" >Microsoft Azure: Introduction</a>
-
-<a href="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/os_devo_a01_it_enus" class="pill-button dark"  target="_blank" >Introduction to SQL</a>
-
-<a href="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/pg_pyth_a01_it_enus" class="pill-button dark"  target="_blank" >Python: The Basics</a>
-
-<a href="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/cl_awsc_a01_it_enus" class="pill-button dark"  target="_blank" >Architecting on Amazon Web Services: IAM and Object Storage</a>
-
-<a href="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/apj_13_a01_it_enus" class="pill-button dark"  target="_blank" >Agile Principles and Methodologies</a>
-
-<a href="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/df_sqli_a01_it_enus" class="pill-button dark"  target="_blank" >Introducing Agile Software Development</a>
-
-<a href="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/acs_01_a02_it_enus" class="pill-button dark"  target="_blank" >ITIL® Service Strategy Concepts</a>
-
-<a href="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/jl_jsee_a01_it_enus" class="pill-button dark"  target="_blank"  >Java SE 8 Fundamentals: Introduction to Java</a>
-
-<a href="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/cl_msaz_a02_it_enus" class="pill-button dark"  target="_blank" >Microsoft Azure: Networks and Storage</a>
-
-<a href="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/sd_agsd_a01_it_enus" class="pill-button dark"  target="_blank"   target="_blank" >DevOps Fundamentals: Tools, Technologies, and Infrastructures</a>
-
-
-                    </td>
+				<div id="divPopularCourseQuarter">
+	                        </div>	
+	                    </td>
                       </tr>
                   </table>
-				  <!--Start: Popular Course of the Quarter Area --> 
+		  <!--Start: Popular Course of the Quarter Area --> 
               </td>
             </tr>          
  </table>
 
 	      
-	    <!-- Acdemic  Box END-->
+	    
 	
 	    </script>
 	  ]]>
