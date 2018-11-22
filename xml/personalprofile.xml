@@ -91,7 +91,7 @@
                         <tr><td colspan="2">
                          <span style="font-size: 23px; color: #000000; ">Quick Links</span>
                         </td></tr><tr><td>                  
-                    <svg class="nc-icon nc-icon--play nc-icon--left" style="width:21px; height:21px;  "><use xlink:href="#icon-play"> </use></svg></td><td>&nbsp;<a style="margin-bottom:0px; margin-left: 0px; color: black; font-size: 14pt;" title="DXC University" href="https://my.dxc.com/employee-resources/dxc-university.html">DXC University - myDXC</a>
+                    <svg class="nc-icon nc-icon--play nc-icon--left" style="width:21px; height:21px;  "><use xlink:href="#icon-play"> </use></svg></td><td>&nbsp;<a style="margin-bottom:0px; margin-left: 0px; color: black; font-size: 14pt;" title="DXC University" href="https://my.dxc.com/employee-resources/dxc-university.html" target="_blank">DXC University - myDXC</a>
                             </td></tr><tr><td>
                     <svg class="nc-icon nc-icon--play nc-icon--left" style="width:21px; height:21px; "><use xlink:href="#icon-play"> </use></svg></td><td>&nbsp;<a style="margin-bottom:0px; margin-left: 0px; color: black; font-size: 14pt;" title="DXC Onboarding" href="https://my.dxc.com/onboarding/home.html" target="_blank">DXC Onboarding</a> 
                             </td></tr><tr><td>
