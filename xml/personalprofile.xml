@@ -45,6 +45,7 @@
 		#ex2 img:hover { 
 			border: 1px solid black; 
 		}  
+		#icon-play #arrow{fill:#feed00}
       		a {text-decoration: none;}
                a:hover {text-decoration: underline;}
          </style>		
@@ -159,7 +160,7 @@
  <svg style="width: 0px; height: 0px; overflow: hidden; position: absolute;" version="1.1">
         <defs>
             <symbol id="icon-play" viewBox="0 0 200 200">
-                <circle cx="100" cy="100" r="100" fill="#ffed00" />
+                <circle cx="100" cy="100" r="100" fill="#000000" />
                 <polygon id="arrow" points="75,60 75,140 140,100" />
             </symbol>
         </defs>
