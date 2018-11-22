@@ -44,10 +44,23 @@
 		} 
 		#ex2 img:hover { 
 			border: 1px solid black; 
-		} 
-           a {text-decoration: none;}
-           a:hover {text-decoration: underline;}
+		}  
+		 #icon-play #arrow{fill:#feed00}
+		.nc-icon{display:inline-block;width:30px;height:30px;stroke-width:0;stroke:inherit;fill:inherit; padding-bottom:5px;}
+		.nc-icon--play{vertical-align:middle;width:21px;height:21px}        
+		.nc-icon--left{margin-right:11px}
+		.nc-icon--right{margin-left:11px}
 
+		a {text-decoration: none;}
+		a:hover {text-decoration: underline;}
+
+		ul {
+		      list-style-type: none;
+		      text-align: left;
+		      padding-left: 0px;
+		    }
+       
+         </style>
          </style>		
 	    
 		
@@ -68,7 +81,7 @@
 					<a href="" target="_blank" id="plan" ><div id="ex2"><img src="../res/images/MyPlan.png" class="imgBox" width="141px;" height="68px;" /></a></div>
 					</td>
 					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:6px; padding-right:0px;  vertical-align: middle;">
-					<div id="ex2"><a href="" target="_blank" id="recommen" ><img src="../res/images/MyRecommendations.png" class="imgBox" width="141px;" height="68px;"/></div>
+					<!-- <div id="ex2"><a href="" target="_blank" id="recommen" ><img src="../res/images/MyRecommendations.png" class="imgBox" width="141px;" height="68px; "/></div>-->
 					</td>
 				</tr>
 
@@ -87,23 +100,29 @@
 		<tr><td><br /></td></tr>
                 <tr>
                    <td style="vertical-align:top;" colspan="2" >                
-                    <!--BEGIN QUICK LINKS-->
-                         <table style="vertical-align:central ;border: 0px solid black;  color: #000000;  text-align:center; text-align:justify;height: 100%; width:300px;" >
-                        <tr><td colspan="2">
-                         <span style="font-size: 23px; color: #000000; ">Quick Links11</span>
-                        </td></tr><tr><td>                  
-                           <svg class="nc-icon nc-icon--play nc-icon--left" style="width:21px; height:21px;  "><use xlink:href="#icon-play"> </use></svg></td><td>&nbsp;<a style="margin-bottom:0px; margin-left: 0px; color: black; font-size: 14pt;" title="DXC University" href="https://my.dxc.com/employee-resources/dxc-university.html">DXC University - myDXC</a>
-                        </td></tr><tr><td>
-                           <svg class="nc-icon nc-icon--play nc-icon--left" style="width:21px; height:21px; "><use xlink:href="#icon-play"> </use></svg></td><td>&nbsp;<a style="margin-bottom:0px; margin-left: 0px; color: black; font-size: 14pt;" title="DXC Onboarding" href="https://my.dxc.com/onboarding/home.html" target="_blank">DXC Onboarding</a> 
-                        </td></tr><tr><td>
-                            <svg class="nc-icon nc-icon--play nc-icon--left" style="width:21px; height:21px; "><use xlink:href="#icon-play"> </use></svg></td><td>&nbsp;<a style="margin-bottom:0px; margin-left: 0px; color: black; font-size: 14pt;" title="DXC Partner Network Training" href="https://my.dxc.com/our-company/dxc-partner-network/dxc-partner-training.html">DXC Partner Network Training</a>
-                        </td></tr><tr><td>
-                             <svg class="nc-icon nc-icon--play nc-icon--left" style="width:21px; height:21px; "><use xlink:href="#icon-play"> </use></svg></td><td>&nbsp;<a style="margin-bottom:0px; margin-left: 0px; color: black; font-size: 14pt;" title="Business English Program" href="https://my.dxc.com/dxc-university/BusEnglish" target="_blank">Business English Program</a> 
-                         </td></tr><tr><td>
-                             <svg class="nc-icon nc-icon--play nc-icon--left" style="width:21px; height:21px; "><use xlink:href="#icon-play"> </use></svg></td><td>&nbsp;<a style="margin-bottom:0px; margin-left: 0px; color: black; font-size: 14pt;" title="Career Development" href="https://my.dxc.com/employee-resources/hr/career---performance-management/Career-Development.html" target="_blank">Career Development</a>
-                          </td></tr>
-                    
-                    </table>
+                    <!--BEGIN QUICK LINKS-->                      
+
+                     <table style="vertical-align:central ;border: 0px solid black;  color: #000000;  text-align:center; text-align:justify;height: 100%; width:300px;" >                       
+                            <tr><td>             
+                                 <ul> 
+
+ 				     <li style="padding-bottom:10px;"> <span style="font-size: 23px; color: #000000;">Quick Links</span> </li>
+
+                                     <li class="nc-top-links__list-item"><a style="color: black; font-size: 14pt;" title="DXC University" href="https://my.dxc.com/employee-resources/dxc-university.html" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>DXC University - myDXC</a></li>
+
+                                     <li class="nc-top-links__list-item"><a style="color: black; font-size: 14pt;" title="DXC Onboarding" href="https://my.dxc.com/onboarding/home.html" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>DXC Onboarding</a> </li>
+
+                                     <li class="nc-top-links__list-item"><a style="color: black; font-size: 14pt;" title="DXC Partner Network Training" href="https://my.dxc.com/our-company/dxc-partner-network/dxc-partner-training.html" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>DXC Partner Network Training</a></li>
+
+                                     <li class="nc-top-links__list-item"><a style="color: black; font-size: 14pt;" title="Business English Program" href="https://my.dxc.com/dxc-university/BusEnglish" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>Business English Program</a> </li>
+
+                                     <li class="nc-top-links__list-item"><a style="color: black; font-size: 14pt;" title="Career Development" href="https://my.dxc.com/employee-resources/hr/career---performance-management/Career-Development.html" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>Career Development</a></li>
+                                 </ul>
+                             </td></tr>
+                      </table>                    
+
+
+
                     <!--END QUICK LINKS-->
                   </td>
 
@@ -128,26 +147,31 @@
 					</td>
 				</tr>
 
-		              <tr>				
+				 <tr>				
 					<td colspan="2" style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:0px; padding-right:0px;  vertical-align: middle;">
-                        		<span style="font-size: 18px; color: #000000; ">Questions about Learning or Skills?</span>
-					<a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/pages/pagelistview/pgcnt000000000178132 " target="_blank" style="margin-left: 0px; color: black;  font-size: 14pt;" >
-                       			  <p> Learning & Skills Support</p>
-                                        </a>
+                        		   <span style="font-size: 18px; color: #000000; ">Questions about Learning or Skills?</span>					   
 					</td>
-				</tr>
+				 </tr>
+                <tr>				
+					<td colspan="2" style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:0px; padding-right:0px;  vertical-align: middle;">
+
+                         <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/pages/pagelistview/pgcnt000000000178132 " target="_blank" style="margin-left: 0px; color: black;  font-size: 14pt;" >Learning & Skills Support</a>
+					</td>
+				   </tr>
+
 				<tr>				
 					  <td colspan="2" style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:0px; padding-right:0px;  vertical-align: middle; " width="300px">
-                        		    <span style="font-size: 18px; color: #000000; "><br />
+                        <span style="font-size: 18px; color: #000000; "><br /><br />
 					    <a href="https://my.dxc.com/our-company/global-functions/integrated-workforce-management/analytics-and-intelligence/dxc-skills-management.html" target="_blank" style="margin-left: 0px; color: black;  font-size: 14pt;" >
                        			       DXC Skills Taxonomy: Capability will become Service Offering/ CAP- will become SO
-                                              </a></span>
-					    </td>
+                        </a></span>
+
+					   </td>
 				    </tr>
-                                    <tr>				
+                    <tr>				
 					    <td colspan="2" style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:0px; padding-right:0px;  vertical-align: middle;" width="300px">
-                        		    <span style="font-size: 14px; color: #000000; ">
-                                        The Level 1 Capability category has been renamed to Service Offering. The name Capability was a historical name and caused confusion. This section of the Taxonomy contains the DXC Service Offerings and is updated to align with the Service Offering Roadmap.
+                        		    <span style="font-size: 12px; color: #000000; ">
+                                                The Level 1 Capability category has been renamed to Service Offering. The name Capability was a historical name and caused confusion. This section of the Taxonomy contains the DXC Service Offerings and is updated to align with the Service Offering Roadmap.
                         		    </span>
 					    </td>
 				    </tr>
@@ -159,7 +183,7 @@
  <svg style="width: 0px; height: 0px; overflow: hidden; position: absolute;" version="1.1">
         <defs>
             <symbol id="icon-play" viewBox="0 0 200 200">
-                <circle cx="100" cy="100" r="100" fill="#ffed00" />
+                <circle cx="100" cy="100" r="100" fill="#000000" />
                 <polygon id="arrow" points="75,60 75,140 140,100" />
             </symbol>
         </defs>
