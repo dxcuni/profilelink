@@ -109,7 +109,7 @@
                     $('#divRecentCourse').append(strTable);
                 },
                 error: function () {
-                    alert("An error occurred while processing XML file." + Response);
+                    console.log("An error occurred while processing XML file." + Response);
                 }
             });
         });
@@ -132,7 +132,7 @@
                     $('#divPopularCourse').append(strTable);
                 },
                 error: function () {
-                    alert("An error occurred while processing XML file." + Response);
+                    console.log("An error occurred while processing XML file." + Response);
                 }
             });
         });
@@ -156,7 +156,7 @@
                     $('#divPopularCourseQuarter').append(strTable);
                 },
                 error: function () {
-                    alert("An error occurred while processing XML file." + Response);
+                    console.log("An error occurred while processing XML file." + Response);
                 }
             });
         });
@@ -234,7 +234,7 @@
              <tr><td colspan="4"><br /></td></tr>   
             <tr>
               <td colspan="4" style="background-color:#000000; height:30px; padding-left:10px;" >
-                 <span style=" font-size: 16pt; color: white;"> Popular Course of the Quarter </span>
+                 <span style=" font-size: 16pt; color: white;"> Popular Courses of the Quarter </span>
               </td>
           </tr>
           
