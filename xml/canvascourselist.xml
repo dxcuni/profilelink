@@ -196,7 +196,7 @@
                   <table>
                       <tr>
 		  <td>
-			<img src="https://raw.githubusercontent.com/dxcuni/profilelink/master/res/images/dxc_icon_blogpost_blk_rgb_300ppi.png" width="100px;" height="100px;" />
+			<img src="../res/images/dxc_icon_blogpost_blk_rgb_300ppi.png" width="100px;" height="100px;" />
 		  </td>
                   <td>
 			<div id="divRecentCourse">
@@ -220,7 +220,7 @@
                   <table>
                       <tr>
   			<td>
-			<img src="https://raw.githubusercontent.com/dxcuni/profilelink/master/res/images/dxc_icon_learndiscoverfindoutmore_blk_rgb_300ppi.png" width="100px;" height="100px;" />
+			<img src="../res/images/dxc_icon_learndiscoverfindoutmore_blk_rgb_300ppi.png" width="100px;" height="100px;" />
 		       </td>
                                 <td>
 					<div id="divPopularCourse">
@@ -244,7 +244,7 @@
                   <table>
                       <tr>
 		      <td>
-			<img src="https://raw.githubusercontent.com/dxcuni/profilelink/master/res/images/dxc_icon_accelerate_blk_rgb_300ppi.png" width="100px;" height="100px;" />
+			<img src="../res/images/dxc_icon_accelerate_blk_rgb_300ppi.png" width="100px;" height="100px;" />
 		       </td>
                            <td>
 				<div id="divPopularCourseQuarter">
@@ -255,9 +255,7 @@
 		  <!--Start: Popular Course of the Quarter Area --> 
               </td>
             </tr>          
- </table>
-
-	      
+ </table>      
 	    
 	
 	    </script>
