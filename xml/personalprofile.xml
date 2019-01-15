@@ -16,8 +16,7 @@
 			   var sabaCertificate ;
 			   var employeeID ;
 			   var userName ;
-			   var URLVaraibale =	"/Saba/Web_spf/NA2PRD0005/common/"
-			   
+			   var URLVaraibale =	"/Saba/Web_spf/NA2PRD0005/common/"			   
 		   /* Global Varaibles END */ 
 		   viewData = gadgets.views.getParams();   
 //alert("shakeeTest444");
