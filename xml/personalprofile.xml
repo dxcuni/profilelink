@@ -30,6 +30,7 @@
                     MyCompLearningURL = currentURLHost+URLVaraibale+"profile/learningtranscripts/"+employeeID;
 		    MyPlanURL = currentURLHost+URLVaraibale+"profile/plans/"+employeeID	;
 		    MySkillManagementURL = "https://my.dxc.com/our-company/global-functions/integrated-workforce-management/analytics-and-intelligence/dxc-skills-management.html";
+			HelpPage = currentURLHost+"/Saba/Web_spf/NA2PRD0005/pages/pagelistview/pgcnt000000000178132"
 		    //MyRewards = currentURLHost+URLVaraibale+"profile/rewards/"+employeeID;
                     MyRecommendation = currentURLHost+URLVaraibale+"recommendations/"+employeeID;
 			//alert(currentURL +" -- "+currentURLHost );			
@@ -79,7 +80,7 @@
 					<a href="" target="_blank" id="plan" ><div id="ex2"><img src="../res/images/MyPlan.png" class="imgBox" width="141px;" height="68px;" /></a></div>
 					</td>
 					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:6px; padding-right:0px;  vertical-align: middle;">
-					<!-- <div id="ex2"><a href="" target="_blank" id="recommen" ><img src="../res/images/MyRecommendations.png" class="imgBox" width="141px;" height="68px; "/></div>-->
+					<div id="ex2"><a href="" target="_blank" id="recommen" ><img src="../res/images/LSS.png" class="imgBox" width="141px;" height="68px; "/></div>
 					</td>
 				</tr>
 
@@ -145,7 +146,7 @@
 					</td>
 				</tr>
 
-				 <tr>				
+				 <!--<tr>				
 					<td colspan="2" style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:0px; padding-right:0px;  vertical-align: middle;">
                         		   <span style="font-size: 18px; color: #000000; ">Questions about Learning or Skills?</span>					   
 					</td>
@@ -155,7 +156,7 @@
 
                          <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/pages/pagelistview/pgcnt000000000178132" target="_blank" style="margin-left: 0px; color: black;  font-size: 14pt;" >Learning & Skills Support</a>
 					</td>
-				   </tr>
+				   </tr>-->
 
 				
 
@@ -177,7 +178,8 @@
                     $("a#lerning").attr("href", MyCompLearningURL);
                     $("a#plan").attr("href", MyPlanURL);
                     $("a#skill").attr("href", MySkillManagementURL);
-		    $("a#recommen").attr("href", MyRecommendation);
+		            $("a#recommen").attr("href", MyRecommendation);
+					$("a#help").attr("href", HelpPage);
 	    	   
 
                 </script>		
