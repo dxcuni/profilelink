@@ -137,7 +137,7 @@
 					</td>
 				</tr>
 
-				 <tr>				
+				<!-- <tr>				
 					<td colspan="2" style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:0px; padding-right:0px;  vertical-align: middle;">
                         		   <span style="font-size: 18px; color: #000000; ">Questions about Learning or Skills?</span>					   
 					</td>
@@ -146,7 +146,7 @@
 					<td colspan="2" style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:0px; padding-right:0px;  vertical-align: middle;">
                         	          <a href="https://dxc-itg.sabacloud.com/Saba/Web_spf/NA3T1SNB0081/pages/pagelistview/pgcnt000000000178132" target="_blank" style="margin-left: 0px; color: black;  font-size: 14pt;" >Learning & Skills Support</a>
 					</td>
-				   </tr>
+				   </tr>-->
 
 			
 			</tbody>
@@ -166,8 +166,8 @@
                     $("a#lerning").attr("href", MyCompLearningURL);
                     $("a#plan").attr("href", MyPlanURL);
                     $("a#skill").attr("href", MySkillManagementURL);
-		    $("a#recommen").attr("href", MyRecommendation);
-		    $("a#help").attr("href", HelpPage);
+					$("a#recommen").attr("href", MyRecommendation);
+					$("a#help").attr("href", HelpPage);
 	    	   
 
                 </script>		
