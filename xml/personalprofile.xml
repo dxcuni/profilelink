@@ -80,7 +80,7 @@
 					<a href="" target="_blank" id="plan" ><div id="ex2"><img src="../res/images/MyPlan.png" class="imgBox" width="141px;" height="68px;" /></a></div>
 					</td>
 					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:6px; padding-right:0px;  vertical-align: middle;">
-					<div id="ex2"><a href="" target="_blank" id="recommen" ><img src="../res/images/LSS.png" class="imgBox" width="141px;" height="68px; "/></div>
+					<div id="ex2"><a href="" target="_blank" id="help" ><img src="../res/images/LSS.png" class="imgBox" width="141px;" height="68px; "/></div>
 					</td>
 				</tr>
 
@@ -182,7 +182,10 @@
 					$("a#help").attr("href", HelpPage);
 	    	   
 
-                </script>
+                </script>		
+
+	      
+	    
 	
 	    </script>
 	  ]]>
