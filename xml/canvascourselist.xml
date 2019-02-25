@@ -38,22 +38,24 @@
 		  color: #000000;
 		}
 
-		.pill-button {
-		  display: inline-block;
-		  margin-right: 8px;
-		  margin-bottom: 8px;
-		  padding: 4px 12px;
+	     .pill-button {
+		  display: inline-block ;
+		  margin-right: 4px;
+		  margin-bottom: 4px;
+		  padding: 3px 9px;
 		  border: 1px none #fff;
 		  border-radius: 100px;
-		  background-color: hsla(0, 0%, 100%, .24);
+		  background-color: hsla(0, 0%, 100%, .54);
+
 		  
-		  -webkit-transition: background-color 100ms ease, opacity 100ms ease, -webkit-transform 100ms ease;
+		  -webkit-transition: background-color 100ms ease, opacity 1000ms ease, -webkit-transform 100ms ease;
 		  transition: background-color 100ms ease, opacity 100ms ease, -webkit-transform 100ms ease;
 		  transition: background-color 100ms ease, opacity 100ms ease, transform 100ms ease;
 		  transition: background-color 100ms ease, opacity 100ms ease, transform 100ms ease, -webkit-transform 100ms ease;
-		  color: #fff;
-		  font-size: 1.5vw;
-		  font-weight:normal;
+		  color: #000000;
+		  font-size: 1.7vw;
+                  font-weight:300;
+          
 		}
 
 		.pill-button:hover {
