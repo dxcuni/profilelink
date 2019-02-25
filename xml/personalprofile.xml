@@ -141,7 +141,7 @@
                 <tr>
                    <td style="vertical-align:top;" colspan="2" >                
                     <!--BEGIN QUICK LINKS-->                      
-                     <table style="vertical-align:central ;border: 0px solid black;  color: #000000;  text-align:center; text-align:justify;height: 100%; width:300px;" >                       
+                     <table style="vertical-align:central ;border: 0px solid black;  color: #000000;  text-align:center; text-align:justify;height: 100%; " >                       
                             <tr><td>             
                                  <ul> 
  				     <li style="padding-bottom:10px;"> <span style="font-size: 23px; color: #000000;">Quick Links</span> </li>
