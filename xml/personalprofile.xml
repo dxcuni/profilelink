@@ -11,12 +11,14 @@
 	  <![CDATA[
 		<!--<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' type='text/javascript'></script>-->
 	      <script src='../res/js/jquery.min.js' type='text/javascript'></script>
+
 	    <script type="text/javascript" language="javascript">
 			/* Global Varaibles Start */ 
 			   var sabaCertificate ;
 			   var employeeID ;
 			   var userName ;
 			   var URLVaraibale =	"/Saba/Web_spf/NA2PRD0005/common/"			   
+
 		   /* Global Varaibles END */ 
 		   viewData = gadgets.views.getParams();   
 //alert("shakeeTest444");
@@ -39,6 +41,21 @@
 	    </script>
 		
 	 <style type="text/css">       
+
+	html, body{
+    height:100%;
+    width:100%;
+    padding:0;
+    margin:0;
+	}
+	 .container {
+	display: table;
+	width: 100%;}
+	.container > span {
+	display: table-cell;
+	width: auto;
+	text-align: center;}
+
 		#ex2 img { 
 		border: 1px solid white; 
 		} 
@@ -61,38 +78,65 @@
 		    }
        
          </style>
-         </style>		    
+         	    
+
+
 		
 		     
         <table style="border: 0px solid black;">
 			<tbody>
 
-				<tr>
-					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:6px; padding-right:0px;  vertical-align: middle;">
-					<div id="ex2"><a href="" target="_blank" id="profile" ><img src="../res/images/MyProfile.png" class="imgBox" width="141px;" height="68px;"  /></a></div>
+					<tr>
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:3px; padding-right:0px;  vertical-align: middle;">					
+					  <div id="ex2" class="container">
+                            <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;">
+                                <a href="" target="_blank" id="profile"><img src="../res/images/MyProfile.png" style="width:100%; " /></a>
+                            </span>
+                      </div>
 					</td>
-					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:6px; padding-right:0px;  vertical-align: middle;">
-					<div id="ex2"><a href="" target="_blank" id="lerning" ><img src="../res/images/MyCompletedLearning.png" class="imgBox" width="141px;" height="68px;" /></a></div>
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:3px; padding-right:0px;  vertical-align: middle;">
+						<div id="ex2" class="container">
+                            <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;">
+                                <a href="" target="_blank" id="lerning"><img src="../res/images/MyCompletedLearning.png" style="width:100%; " /></a>
+                            </span>
+                        </div>
 					</td>
 				</tr>
 				 <tr>				
-					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:6px; padding-right:0px;  vertical-align: middle;">
-					<a href="" target="_blank" id="plan" ><div id="ex2"><img src="../res/images/MyPlan.png" class="imgBox" width="141px;" height="68px;" /></a></div>
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:3px; padding-right:0px;  vertical-align: middle;">
+						<div id="ex2" class="container">
+                            <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;">
+                                <a href="" target="_blank" id="plan"><img src="../res/images/MyPlan.png" style="width:100%; " /></a>
+                            </span>
+                        </div>
 					</td>
-					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:6px; padding-right:0px;  vertical-align: middle;">
-					<div id="ex2"><a href="" target="_blank" id="help" ><img src="../res/images/LSS.png" class="imgBox" width="141px;" height="68px; "/></div>
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:3px; padding-right:0px;  vertical-align: middle;">
+						<div id="ex2" class="container">
+                            <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;">
+                                <a href="" target="_blank" id="help"><img src="../res/images/LSS.png" style="width:100%; " /></a>
+                            </span>
+                        </div>
 					</td>
 				</tr>
+               	 <tr>				
 
-               			 <tr>				
+
 					<td colspan="2" style="text-align: center; color: #000000; padding-top: 1px; padding-left:1px; padding-bottom:3px; padding-right:1px;  vertical-align: middle;">
-					<div id="ex2"><a href="" id="skill" target="_blank"><img src="../res/images/SkillsMngmt.png" class="imgBox" width="295px;" height="68px;" /></a></div>
+						<div id="ex2" class="container">
+                            <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;">
+                                <a href="" target="_blank" id="skill"><img src="../res/images/SkillsMngmt.png" style="width:100%; " /></a>
+                            </span>
+                        </div>
 					</td>
 					
 				</tr>
-               			<tr>				
+               	<tr>				
 					<td colspan="2" style="text-align: center; color: #000000; padding-top: 3px; padding-left:1px; padding-bottom:3px; padding-right:1px;  vertical-align: middle;">
-					<a href="https://csc.skillport.com/skillportfe/main.action#whatshappening" target="_blank"><div id="ex2"><img src="../res/images/AccessToskillsoft.png" class="imgBox" width="295px;" height="68px;" /></div></a>
+					 <div id="ex2" class="container">
+                            <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;">
+                                <a href="https://csc.skillport.com/skillportfe/main.action#whatshappening" target="_blank" id="skill"><img src="../res/images/AccessToskillsoft.png" style="width:100%; " /></a>
+                            </span>
+                        </div>
 					</td>
 					
 				</tr>
@@ -101,21 +145,21 @@
                    <td style="vertical-align:top;" colspan="2" >                
                     <!--BEGIN QUICK LINKS-->                      
 
-                     <table style="vertical-align:central ;border: 0px solid black;  color: #000000;  text-align:center; text-align:justify;height: 100%; width:300px;" >                       
+                     <table style="vertical-align:central ;border: 0px solid black;  color: #000000;  text-align:center; text-align:justify;height: 100%;" >                       
                             <tr><td>             
                                  <ul> 
 
- 				     <li style="padding-bottom:10px;"> <span style="font-size: 23px; color: #000000;">Quick Links</span> </li>
+ 				     <li style="padding-bottom:10px;"> <span style="font-size: 10vw;  font-weight: bold; color: #000000;">Quick Links</span> </li>
 
-                                     <li class="nc-top-links__list-item"><a style="color: black; font-size: 14pt;" title="DXC University" href="https://my.dxc.com/employee-resources/dxc-university.html" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>DXC University - myDXC</a></li>
+                                     <li class="nc-top-links__list-item"><a style="color: black; font-size: 6vw;" title="DXC University" href="https://my.dxc.com/employee-resources/dxc-university.html" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>DXC University - myDXC</a></li>
 
-                                     <li class="nc-top-links__list-item"><a style="color: black; font-size: 14pt;" title="DXC Onboarding" href="https://my.dxc.com/onboarding/home.html" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>DXC Onboarding</a> </li>
+                                     <li class="nc-top-links__list-item"><a style="color: black; font-size: 6vw;" title="DXC Onboarding" href="https://my.dxc.com/onboarding/home.html" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>DXC Onboarding</a> </li>
 
-                                     <li class="nc-top-links__list-item"><a style="color: black; font-size: 14pt;" title="DXC Partner Network Training" href="https://my.dxc.com/our-company/dxc-partner-network/dxc-partner-training.html" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>DXC Partner Network Training</a></li>
+                                     <li class="nc-top-links__list-item"><a style="color: black; font-size: 6vw;" title="DXC Partner Network Training" href="https://my.dxc.com/our-company/dxc-partner-network/dxc-partner-training.html" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>DXC Partner Network Training</a></li>
 
-                                     <li class="nc-top-links__list-item"><a style="color: black; font-size: 14pt;" title="Business English Program" href="https://my.dxc.com/dxc-university/BusEnglish" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>Business English Program</a> </li>
+                                     <li class="nc-top-links__list-item"><a style="color: black; font-size: 6vw;" title="Business English Program" href="https://my.dxc.com/dxc-university/BusEnglish" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>Business English Program</a> </li>
 
-                                     <li class="nc-top-links__list-item"><a style="color: black; font-size: 14pt;" title="Career Development" href="https://my.dxc.com/employee-resources/hr/career---performance-management/Career-Development.html" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>Career Development</a></li>
+                                     <li class="nc-top-links__list-item"><a style="color: black; font-size: 6vw;" title="Career Development" href="https://my.dxc.com/employee-resources/hr/career---performance-management/Career-Development.html" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>Career Development</a></li>
                                  </ul>
                              </td></tr>
                       </table>                    
@@ -126,41 +170,45 @@
                   </td>
 
              </tr>
-	    <tr><td><br /></td></tr>
+	    
 
 
-                              <tr>
-					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:7px; padding-right:1px;  vertical-align: middle;">
-					<a href="https://csc.skillport.com/skillportfe/main.action?path=browsecatalog/en/_fcpaths_L0NTQ19Qcm9kdWN0c18mX1Jlc291cmNlc19xdzBoL2N1c3RvbS1MZWFybmluZ19HdWlkZXM._fcpathe_" target="_blank" ><div id="ex2"><img src="../res/images/LearningGuides.png" class="imgBox" width="139px;" height="68px;"/></div></a>
+             <tr>
+
+		           <td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:7px; padding-right:1px;  vertical-align: middle;">
+					 <div id="ex2" class="container">
+                            <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;">
+                                <a href="https://csc.skillport.com/skillportfe/main.action?path=browsecatalog/en/_fcpaths_L0NTQ19Qcm9kdWN0c18mX1Jlc291cmNlc19xdzBoL2N1c3RvbS1MZWFybmluZ19HdWlkZXM._fcpathe_" target="_blank" id="skill"><img src="../res/images/LearningGuides.png" style="width:100%; " /></a>
+                            </span>
+                        </div>
 					</td>
 					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:7px; padding-right:0px;  vertical-align: middle;">
-					<a href="https://my.dxc.com/employee-resources/dxc-university/overview/fsdlp.html" target="_blank" ><div id="ex2"><img src="../res/images/FullStack.png" class="imgBox" width="139px;" height="68px;"/></div></a>
+						<div id="ex2" class="container">
+                            <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;">
+                                <a href="https://my.dxc.com/employee-resources/dxc-university/overview/fsdlp.html" target="_blank" id="skill"><img src="../res/images/FullStack.png" style="width:100%; " /></a>
+                            </span>
+                        </div>
 					</td>
 				</tr>
 				 <tr>				
 					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:7px; padding-right:1px;  vertical-align: middle;">
-					<a href="https://my.dxc.com/employee-resources/dxc-university/overview/dxcuvirtualpracticelabs.html" target="_blank"  ><div id="ex2"><img src="../res/images/VitualPLabs.png" class="imgBox" width="139px;" height="68px;" /></div></a>
+						<div id="ex2" class="container">
+                            <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;">
+                                <a href="https://my.dxc.com/employee-resources/dxc-university/overview/dxcuvirtualpracticelabs.html" target="_blank" id="skill"><img src="../res/images/VitualPLabs.png" style="width:100%; " /></a>
+                            </span>
+                        </div>
 					</td>
-					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:7px; padding-right:0px;  vertical-align: middle;">
-					<a href="https://my.dxc.com/employee-resources/dxc-university/DXCUBadges.html" target="_blank"  ><div id="ex2"><img src="../res/images/UBadges.png" class="imgBox" width="139px;" height="68px;"/></div></a>
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:7px; padding-right:0px;  vertical-align: middle;">						 <div id="ex2" class="container">
+
+
+                            <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;">
+
+                                <a href="https://my.dxc.com/employee-resources/dxc-university/DXCUBadges.html" target="_blank" id="skill"><img src="../res/images/UBadges.png" style="width:100%; " /></a>
+                            </span>
+                        </div>
 					</td>
-				</tr>
-
-				 <!--<tr>				
-					<td colspan="2" style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:0px; padding-right:0px;  vertical-align: middle;">
-                        		   <span style="font-size: 18px; color: #000000; ">Questions about Learning or Skills?</span>					   
-					</td>
-				 </tr>
-                <tr>				
-					<td colspan="2" style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:0px; padding-right:0px;  vertical-align: middle;">
-
-                         <a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/pages/pagelistview/pgcnt000000000178132" target="_blank" style="margin-left: 0px; color: black;  font-size: 14pt;" >Learning & Skills Support</a>
-					</td>
-				   </tr>-->
-
-				
-
-
+				</tr>			
+			
 			</tbody>
 			</table>
 <!-- Yellow Button Box START-->
