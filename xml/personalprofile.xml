@@ -144,7 +144,7 @@
                      <table style="vertical-align:central ;border: 0px solid black;  color: #000000;  text-align:center; text-align:justify;height: 100%; " >                       
                             <tr><td>             
                                  <ul> 
- 				     <li style="padding-bottom:10px;"> <span style="font-size: 23px; color: #000000;">Quick Links</span> </li>
+ 				     <li style="padding-bottom:10px;"> <span style="font-size: 10vw;  font-weight: bold; color: #000000;">Quick Links</span> </li>
                                      <li class="nc-top-links__list-item"><a style="color: black; font-size: 6vw;" title="DXC University" href="https://my.dxc.com/employee-resources/dxc-university.html" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>DXC University - myDXC</a></li>
                                      <li class="nc-top-links__list-item"><a style="color: black; font-size: 6vw;" title="DXC Onboarding" href="https://my.dxc.com/onboarding/home.html" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>DXC Onboarding</a> </li>
                                      <li class="nc-top-links__list-item"><a style="color: black; font-size: 6vw;" title="DXC Partner Network Training" href="https://my.dxc.com/our-company/dxc-partner-network/dxc-partner-training.html" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>DXC Partner Network Training</a></li>
