@@ -111,7 +111,7 @@
             $.ajax({
                 type: "GET",
                // url: "../res/xml/Recent.xml",
-		url: "https://raw.githubusercontent.com/dxcuni/profilelink/master/res/xml/Recent.xml",
+		url: "https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/xml/Recent.xml",
                 dataType: "xml",
                 success: function (xml) {                    
                     $(xml).find('course').each(function () {                    
@@ -134,7 +134,7 @@
             $.ajax({
                 type: "GET",
                 //url: "../res/xml/Popular.xml",
-		url: "https://raw.githubusercontent.com/dxcuni/profilelink/master/res/xml/Popular.xml",
+		url: "https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/xml/Popular.xml",
                 dataType: "xml",
                 success: function (xml) {
                     $(xml).find('course').each(function () {
@@ -158,7 +158,7 @@
             $.ajax({
                 type: "GET",
                 //url: "../res/xml/PopularCourseQuarter.xml",
-		url: "https://raw.githubusercontent.com/dxcuni/profilelink/master/res/xml/PopularCourseQuarter.xml",
+		url: "https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/xml/PopularCourseQuarter.xml",
                 dataType: "xml",
                 success: function (xml) {
                     $(xml).find('course').each(function () {
@@ -181,16 +181,16 @@
           <tr>
               <td style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:0px;"> 
 				<div class="container">
-                <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;"><a href="https://my.dxc.com/dxc-university/DXCBusSkills" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/master/res/images/BSA_IC_04.png" style="width:100%; " /></a></span>
+                <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;"><a href="https://my.dxc.com/dxc-university/DXCBusSkills" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BSA_IC_04.png" style="width:100%; " /></a></span>
 
 
-                      <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;"><a href="https://my.dxc.com/dxc-university/DXCDigitalAcademy" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/master/res/images/DSA_IC_04.png" style="width:100%; " /></a></span>
+                      <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;"><a href="https://my.dxc.com/dxc-university/DXCDigitalAcademy" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/DSA_IC_04.png" style="width:100%; " /></a></span>
 
 
-                      <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;"><a href="https://my.dxc.com/employee-resources/dxc-university/dxcleadershipacademy0.html" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/master/res/images/LSA_IC_04.png" style="width:100%;" /></a></span>
+                      <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;"><a href="https://my.dxc.com/employee-resources/dxc-university/dxcleadershipacademy0.html" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/LSA_IC_04.png" style="width:100%;" /></a></span>
 
 
-                      <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;"><a href="https://my.dxc.com/employee-resources/dxc-university/dxcsalesacademy.html" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/master/res/images/SSA_IC_04.png" style="width:100%;" /></a></span>
+                      <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;"><a href="https://my.dxc.com/employee-resources/dxc-university/dxcsalesacademy.html" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/SSA_IC_04.png" style="width:100%;" /></a></span>
                   </div> 
                   
               </td>
