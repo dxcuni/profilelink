@@ -85,14 +85,14 @@
 			<tbody>
 
 				<tr>
-					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:6px; padding-right:0px;  vertical-align: middle;">					
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:3px; padding-right:0px;  vertical-align: middle;">					
 					  <div id="ex2" class="container">
                             <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;">
                                 <a href="" target="_blank" id="profile"><img src="../res/images/MyProfile.png" style="width:100%; " /></a>
                             </span>
                       </div>
 					</td>
-					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:6px; padding-right:0px;  vertical-align: middle;">
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:3px; padding-right:0px;  vertical-align: middle;">
 						<div id="ex2" class="container">
                             <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;">
                                 <a href="" target="_blank" id="lerning"><img src="../res/images/MyCompletedLearning.png" style="width:100%; " /></a>
@@ -101,14 +101,14 @@
 					</td>
 				</tr>
 				 <tr>				
-					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:6px; padding-right:0px;  vertical-align: middle;">
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:3px; padding-right:0px;  vertical-align: middle;">
 						<div id="ex2" class="container">
                             <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;">
                                 <a href="" target="_blank" id="plan"><img src="../res/images/MyPlan.png" style="width:100%; " /></a>
                             </span>
                         </div>
 					</td>
-					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:6px; padding-right:0px;  vertical-align: middle;">
+					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:3px; padding-right:0px;  vertical-align: middle;">
 						<div id="ex2" class="container">
                             <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;">
                                 <a href="" target="_blank" id="help"><img src="../res/images/LSS.png" style="width:100%; " /></a>
