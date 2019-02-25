@@ -23,7 +23,7 @@
 			body {
      	  
 		  color: #FFFF00;
-		  font-size: 1.5vw;
+		  font-size: 1.0vw;
 		  line-height: 1.0;
 		  font-weight: 300;
 		}
