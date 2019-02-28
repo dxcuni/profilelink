@@ -29,12 +29,12 @@
 		    currentURLHost = $(location).attr('protocol')+"//"+$(location).attr('hostname');
 			
     		    MyProfileURL = currentURLHost+URLVaraibale+"profile/basicinfo/"+employeeID;	
-                    MyCompLearningURL = currentURLHost+URLVaraibale+"profile/learningtranscripts/"+employeeID;
-		    MyPlanURL = currentURLHost+URLVaraibale+"profile/plans/"+employeeID	;
-		    MySkillManagementURL = "https://csc.skillport.com/skillportfe/main.action#whatshappening";
-			HelpPage = currentURLHost+"/Saba/Web_spf/NA2PRD0005/pages/pagelistview/pgcnt000000000178132"
+                MyCompLearningURL = currentURLHost+URLVaraibale+"profile/learningtranscripts/"+employeeID;
+		        MyPlanURL = currentURLHost+URLVaraibale+"profile/plans/"+employeeID	;		         
+			    SkillSupportHelp = currentURLHost+"/Saba/Web_spf/NA3T1SNB0081/pages/pagelistview/pgcnt000000000178132"
+			    SkillManagementURL = "https://my.dxc.com/our-company/global-functions/integrated-workforce-management/analytics-and-intelligence/dxc-skills-management.html";
+				AccessToskillSoft="https://csc.skillport.com/skillportfe/main.action#whatshappening"
 		    //MyRewards = currentURLHost+URLVaraibale+"profile/rewards/"+employeeID;
-                    MyRecommendation = currentURLHost+URLVaraibale+"recommendations/"+employeeID;
 			//alert(currentURL +" -- "+currentURLHost );			
 	   // gadgets.util.registerOnLoadHandler(init);
 	   
@@ -113,18 +113,16 @@
 					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:0px; padding-bottom:3px; padding-right:0px;  vertical-align: middle;">
 						<div id="ex2" class="container">
                             <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;">
-                                <a href="" target="_blank" id="help"><img src="../res/images/LSS.png" style="width:100%; " /></a>
+                                <a href="" target="_blank" id="skillSuporthelp"><img src="../res/images/LSS.png" style="width:100%; " /></a>
                             </span>
                         </div>
 					</td>
 				</tr>
-               	 <tr>				
-
-
+               	 <tr>
 					<td colspan="2" style="text-align: center; color: #000000; padding-top: 1px; padding-left:1px; padding-bottom:3px; padding-right:1px;  vertical-align: middle;">
 						<div id="ex2" class="container">
                             <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;">
-                                <a href="" target="_blank" id="skill"><img src="../res/images/SkillsMngmt.png" style="width:100%; " /></a>
+                                <a href="" target="_blank" id="skillmngt"><img src="../res/images/SkillsMngmt.png" style="width:100%; " /></a>
                             </span>
                         </div>
 					</td>
@@ -134,7 +132,7 @@
 					<td colspan="2" style="text-align: center; color: #000000; padding-top: 3px; padding-left:1px; padding-bottom:3px; padding-right:1px;  vertical-align: middle;">
 					 <div id="ex2" class="container">
                             <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;">
-                                <a href="" target="_blank" id="skill"><img src="../res/images/AccessToskillsoft.png" style="width:100%; " /></a>
+                                <a href="" target="_blank" id="AccessToskill"><img src="../res/images/AccessToskillsoft.png" style="width:100%; " /></a>
                             </span>
                         </div>
 					</td>
@@ -178,14 +176,14 @@
 		           <td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:7px; padding-right:1px;  vertical-align: middle;">
 					 <div id="ex2" class="container">
                             <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;">
-                                <a href="https://csc.skillport.com/skillportfe/main.action?path=browsecatalog/en/_fcpaths_L0NTQ19Qcm9kdWN0c18mX1Jlc291cmNlc19xdzBoL2N1c3RvbS1MZWFybmluZ19HdWlkZXM._fcpathe_" target="_blank" id="skill"><img src="../res/images/LearningGuides.png" style="width:100%; " /></a>
+                                <a href="https://csc.skillport.com/skillportfe/main.action?path=browsecatalog/en/_fcpaths_L0NTQ19Qcm9kdWN0c18mX1Jlc291cmNlc19xdzBoL2N1c3RvbS1MZWFybmluZ19HdWlkZXM._fcpathe_" target="_blank" ><img src="../res/images/LearningGuides.png" style="width:100%; " /></a>
                             </span>
                         </div>
 					</td>
 					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:7px; padding-right:0px;  vertical-align: middle;">
 						<div id="ex2" class="container">
                             <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;">
-                                <a href="https://my.dxc.com/employee-resources/dxc-university/overview/fsdlp.html" target="_blank" id="skill"><img src="../res/images/FullStack.png" style="width:100%; " /></a>
+                                <a href="https://my.dxc.com/employee-resources/dxc-university/overview/fsdlp.html" target="_blank" ><img src="../res/images/FullStack.png" style="width:100%; " /></a>
                             </span>
                         </div>
 					</td>
@@ -194,7 +192,7 @@
 					<td style="text-align: center; color: #000000; padding-top: 0px; padding-left:1px; padding-bottom:7px; padding-right:1px;  vertical-align: middle;">
 						<div id="ex2" class="container">
                             <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;">
-                                <a href="https://my.dxc.com/employee-resources/dxc-university/overview/dxcuvirtualpracticelabs.html" target="_blank" id="skill"><img src="../res/images/VitualPLabs.png" style="width:100%; " /></a>
+                                <a href="https://my.dxc.com/employee-resources/dxc-university/overview/dxcuvirtualpracticelabs.html" target="_blank"><img src="../res/images/VitualPLabs.png" style="width:100%; " /></a>
                             </span>
                         </div>
 					</td>
@@ -203,7 +201,7 @@
 
                             <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;">
 
-                                <a href="https://my.dxc.com/employee-resources/dxc-university/DXCUBadges.html" target="_blank" id="skill"><img src="../res/images/UBadges.png" style="width:100%; " /></a>
+                                <a href="https://my.dxc.com/employee-resources/dxc-university/DXCUBadges.html" target="_blank"><img src="../res/images/UBadges.png" style="width:100%; " /></a>
                             </span>
                         </div>
 					</td>
@@ -221,13 +219,13 @@
         </defs>
     </svg>
 <!-- Yellow Button Box END-->
-                <script type="text/javascript" language="javascript">
+                 <script type="text/javascript" language="javascript">
                     $("a#profile").attr("href", MyProfileURL);
                     $("a#lerning").attr("href", MyCompLearningURL);
                     $("a#plan").attr("href", MyPlanURL);
-                    $("a#skill").attr("href", MySkillManagementURL);
-		            $("a#recommen").attr("href", MyRecommendation);
-					$("a#help").attr("href", HelpPage);
+                    $("a#skillSuporthelp").attr("href", SkillSupportHelp);
+		    $("a#skillmngt").attr("href", SkillManagementURL);
+		    $("a#AccessToskill").attr("href", AccessToskillSoft);
 	    	   
 
                 </script>		
