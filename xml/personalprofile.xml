@@ -31,7 +31,7 @@
     		    MyProfileURL = currentURLHost+URLVaraibale+"profile/basicinfo/"+employeeID;	
                     MyCompLearningURL = currentURLHost+URLVaraibale+"profile/learningtranscripts/"+employeeID;
 		    MyPlanURL = currentURLHost+URLVaraibale+"profile/plans/"+employeeID	;
-		    MySkillManagementURL = "https://my.dxc.com/our-company/global-functions/integrated-workforce-management/analytics-and-intelligence/dxc-skills-management.html";
+		    MySkillManagementURL = "https://csc.skillport.com/skillportfe/main.action#whatshappening";
 			HelpPage = currentURLHost+"/Saba/Web_spf/NA3T1SNB0081/pages/pagelistview/pgcnt000000000178132"
 		    //MyRewards = currentURLHost+URLVaraibale+"profile/rewards/"+employeeID;
                     MyRecommendation = currentURLHost+URLVaraibale+"recommendations/"+employeeID;
@@ -131,7 +131,7 @@
 					<td colspan="2" style="text-align: center; color: #000000; padding-top: 3px; padding-left:1px; padding-bottom:3px; padding-right:1px;  vertical-align: middle;">
 					 <div id="ex2" class="container">
                             <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:2px;">
-                                <a href="https://csc.skillport.com/skillportfe/main.action#whatshappening" target="_blank" id="skill"><img src="../res/images/AccessToskillsoft.png" style="width:100%; " /></a>
+                                <a href="" target="_blank" id="skill"><img src="../res/images/AccessToskillsoft.png" style="width:100%; " /></a>
                             </span>
                         </div>
 					</td>
