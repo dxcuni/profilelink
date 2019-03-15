@@ -33,7 +33,7 @@
     		    MyProfileURL = currentURLHost+URLVaraibale+"profile/basicinfo/"+employeeID;	
                 MyCompLearningURL = currentURLHost+URLVaraibale+"profile/learningtranscripts/"+employeeID;
 		        MyPlanURL = currentURLHost+URLVaraibale+"profile/plans/"+employeeID	;		         
-			    SkillSupportHelp = currentURLHost+"/Saba/Web_spf/NA3T1SNB0081/pages/pagelistview/pgcnt000000000178132"
+			    SkillSupportHelp = currentURLHost+"/Saba/Web_spf/NA2PRD0005/pages/pagelistview/pgcnt000000000178132"
 			    SkillManagementURL = "https://my.dxc.com/our-company/global-functions/integrated-workforce-management/analytics-and-intelligence/dxc-skills-management.html";
 				AccessToskillSoft="https://csc.skillport.com/skillportfe/main.action#whatshappening"
 		    //MyRewards = currentURLHost+URLVaraibale+"profile/rewards/"+employeeID;
