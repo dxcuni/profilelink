@@ -124,7 +124,7 @@
             $.ajax({
                 type: "GET",
                // url: "../res/xml/Recent.xml",
-		url: "https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/xml/TopTrending.xml",
+		url: "https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/xml/TopTrendingCurricula.xml",
                 dataType: "xml",
                 success: function (xml) {                    
                     $(xml).find('course').each(function () {                    
@@ -147,7 +147,7 @@
             $.ajax({
                 type: "GET",
                 //url: "../res/xml/Popular.xml",
-		url: "https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/xml/Popular.xml",
+		url: "https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/xml/TopTrendingCourses.xml",
                 dataType: "xml",
                 success: function (xml) {
                     $(xml).find('course').each(function () {
