@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <courseList>
-  <course heading="Python Fundamentals" url="https://dxc-itg.sabacloud.com/Saba/Web_spf/NA3T1SNB0081/app/shared;spf-url=common%2Fledetail%2Fcours000000000204062" >
+  <course heading="DevOps Dojo - White Belt" url="https://dxc-itg.sabacloud.com/Saba/Web_spf/NA3T1SNB0081/common/learningeventdetail/curra000000000003521" >
   </course>
-  <course heading="Agile Practices Overview" url="https://dxc-itg.sabacloud.com/Saba/Web_spf/NA3T1SNB0081/app/shared;spf-url=common%2Fledetail%2Fcours000000000159726" >
+  <course heading="DXC Bionix Asset Training" url="https://dxc-itg.sabacloud.com/Saba/Web_spf/NA3T1SNB0081/common/learningeventdetail/curra000000000003900" >
   </course>
-  <course heading="Scrum in Practice - an Overview" url="https://dxc-itg.sabacloud.com/Saba/Web_spf/NA3T1SNB0081/app/shared;spf-url=common%2Fledetail%2Fcours000000000159727">
+  <course heading="Digital Foundation" url="https://dxc-itg.sabacloud.com/Saba/Web_spf/NA3T1SNB0081/common/learningeventdetail/curra000000000003860">
   </course>
-  <course heading="RPA Basics - IDM Technology" url="https://dxc-itg.sabacloud.com/Saba/Web_spf/NA3T1SNB0081/app/shared;spf-url=common%2Fledetail%2Fcours000000000207582">
+  <course heading="Spartans White Belt 3.0" url="https://dxc-itg.sabacloud.com/Saba/Web_spf/NA3T1SNB0081/common/learningeventdetail/curra000000000003682">
   </course>
-   <course heading="IOT Workshop" url="https://dxc-itg.sabacloud.com/Saba/Web_spf/NA3T1SNB0081/app/shared;spf-url=common%2Fledetail%2Fcours000000000191437">
+   <course heading="Industry Foundation" url="https://dxc-itg.sabacloud.com/Saba/Web_spf/NA3T1SNB0081/common/learningeventdetail/curra000000000004325">
   </course>
-  <course heading="DevOps Methodologies and Development" url="https://dxc-itg.sabacloud.com/Saba/Web_spf/NA3T1SNB0081/app/shared;spf-url=common%2Fledetail%2Fcours000000000160249">
+  <course heading="Platform DXC Awareness Training - OD&T" url="https://dxc-itg.sabacloud.com/Saba/Web_spf/NA3T1SNB0081/common/learningeventdetail/curra000000000004087">
   </course>
-  <course heading="AI and ML Solutions with Python: Implementing Robotic Process Automation" url="https://dxc-itg.sabacloud.com/Saba/Web_spf/NA3T1SNB0081/app/shared;spf-url=common%2Fledetail%2Fcours000000000195408">
+  <course heading="DXC Digital Explorer - White Belt" url="https://dxc-itg.sabacloud.com/Saba/Web_spf/NA3T1SNB0081/common/learningeventdetail/curra000000000004384">
   </course>
-  <course heading="Spartans Yellow Belt 3.0" url="https://dxc-itg.sabacloud.com/Saba/Web_spf/NA3T1SNB0081/app/shared;spf-url=common%2Fledetail%2Fcours000000000195494">
+  <course heading="Workplace and Mobility: Platform DXC OD&T Training" url="https://dxc-itg.sabacloud.com/Saba/Web_spf/NA3T1SNB0081/common/learningeventdetail/curra000000000004246">
   </course> 
-  <course heading="AWS Solution Architect - Associate" url="https://dxc-itg.sabacloud.com/Saba/Web_spf/NA3T1SNB0081/app/shared;spf-url=common%2Fledetail%2Fcours000000000171094">
+  <course heading="Agile Beginner" url="https://dxc-itg.sabacloud.com/Saba/Web_spf/NA3T1SNB0081/common/learningeventdetail/curra000000000003601">
   </course>  
-  <course heading="AWS SysOps Administrator - Associate" url="https://dxc-itg.sabacloud.com/Saba/Web_spf/NA3T1SNB0081/app/shared;spf-url=common%2Fledetail%2Fcours000000000171097">
+  <course heading="IT Aspire Journey - Data Analyst To Data Scientist" url="https://csc.skillport.com/skillportfe/main.action?path=browsecatalog/en/_fcpaths_L1RhcmdldGVkX1Byb2dyYW1zX3F2dHMvSVRfQXNwaXJlX0pvdXJuZXlzX3NwcjgvRGF0YV9BbmFseXN0X1RvX0RhdGFfU2NpZW50aXN0X3NwdTE._fcpathe_">
   </course>  
 </courseList>
