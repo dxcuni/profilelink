@@ -117,7 +117,7 @@
             $.ajax({
                 type: "GET",
                // url: "../res/xml/Recent.xml",
-		url: "https://raw.githubusercontent.com/dxcuni/profilelink/master/res/xml/Recent.xml",
+		url: "https://raw.githubusercontent.com/dxcuni/profilelink/master/res/xml/TopTrendingCurricula.xml",
                 dataType: "xml",
                 success: function (xml) {                    
                     $(xml).find('course').each(function () {                    
@@ -140,7 +140,7 @@
             $.ajax({
                 type: "GET",
                 //url: "../res/xml/Popular.xml",
-		url: "https://raw.githubusercontent.com/dxcuni/profilelink/master/res/xml/Popular.xml",
+		url: "https://raw.githubusercontent.com/dxcuni/profilelink/master/res/xml/TopTrendingCourses.xml",
                 dataType: "xml",
                 success: function (xml) {
                     $(xml).find('course').each(function () {
@@ -158,29 +158,7 @@
         });
 	        //Popular Course XML PArsing  END
 
-	        //PopularCourseQuarter Course XML PArsing  Starts
-        $(document).ready(function () {
-            var strTable = ''
-            $.ajax({
-                type: "GET",
-                //url: "../res/xml/PopularCourseQuarter.xml",
-		url: "https://raw.githubusercontent.com/dxcuni/profilelink/master/res/xml/PopularCourseQuarter.xml",
-                dataType: "xml",
-                success: function (xml) {
-                    $(xml).find('course').each(function () {
-                        var strHeading = $(this).attr('heading');
-                        var strURL = $(this).attr('url');
-                        strTable += '<a href="' + strURL + '" class="pill-button dark"  target="_blank" >' + strHeading + '</a>';
-                    });
-
-                    $('#divPopularCourseQuarter').append(strTable);
-                },
-                error: function () {
-                    console.log("An error occurred while processing XML file." + Response);
-                }
-            });
-        });
-	        //PopularCourseQuarter Course XML PArsing  END
+	 
 	        </script>
 		
 		  <table>
