@@ -88,7 +88,7 @@
 			<tbody>
 
 		 <tr>
-              <td style="vertical-align:top;" colspan="2" >                
+              <td style="vertical-align:top;"  >                
                     <!--BEGIN QUICK LINKS-->
                      <table style="vertical-align:central ;border: 0px solid black; color: #000000; font-weight: bold; text-align:center; text-align:justify;height: 100%;" >                       
                              <tr><td> 
@@ -108,7 +108,7 @@
                   </td>
              </tr>
                 <tr>
-                    <td style="vertical-align:top;" colspan="2">
+                    <td style="vertical-align:top;" >
                         <!--Internal LINKS-->
                         <table style="vertical-align:central ;border: 0px solid black; color: #000000; font-weight: bold; text-align:center; text-align:justify;height: 100%;">
                             <tr>
