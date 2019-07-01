@@ -107,6 +107,18 @@
       border-top: 1px solid black;
       border-bottom: 1px solid black;
     }
+	
+	@font-face {
+font-family: 'GT_Walsheim_Pro_Regular';
+src: url('../res/css/GT-Walsheim-Pro-Regular.eot'); /* IE9 Compat Modes */
+src: url('../res/css/GT-Walsheim-Pro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('../res/css/GT-Walsheim-Pro-Regular.woff') format('woff'), /* Modern Browsers */
+url('../res/css/GT-Walsheim-Pro-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+url('../res/css/GT-Walsheim-Pro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */}
+        body {font-family: GT_Walsheim_Pro_Regular;}
+p.a {
+    font-family: "GT_Walsheim_Pro_Regular";
+}
          </style>		
 	    <!--<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' type='text/javascript'></script>	-->
         <script src='../res/js/jquery.min.js' type='text/javascript'></script>
@@ -160,14 +172,14 @@
 
 	       
 	        </script>
-		
-		   <table>
+		<table style="font-family:'GT_Walsheim_Pro_Regular'; ">
+		   
           <tr>
               <td style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:0px;" colspan="2"> 
             
                   <div class="container">
                       <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:15px;"><a href="https://my.dxc.com/dxc-university/DXCBusSkills" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BusinessSkillsAcademySC2.png" style="width:100%; " /></a></span>
-                      <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:15px;"><a href="https://my.dxc.com/employee-resources/dxc-university/overview/BPSacademy.html" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BPSAcademySC2.png" style="width:100%; " /></a></span>
+                      <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:15px;"><a href="#" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/BPSAcademySC2.png" style="width:100%; " /></a></span>
                       <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:15px;"><a href="https://my.dxc.com/dxc-university/DXCDigitalAcademy" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/DigitalAcademySC2.png" style="width:100%;" /></a></span>
                       <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:15px;"><a href="https://my.dxc.com/employee-resources/dxc-university/dxcleadershipacademy0.html" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/LeadershipAcademySC2.png" style="width:100%;" /></a></span>
                       <span id="ex2" style="padding-top: 0px; padding-left:0px; padding-bottom:0px; padding-right:15px;"><a href="https://my.dxc.com/employee-resources/dxc-university/dxcsalesacademy.html" target="_blank"><img src="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/images/SalesAcademySC2.png" style="width:100%;" /></a></span>
