@@ -101,11 +101,11 @@ p.a {
               <td style="vertical-align:top;"  >                
                     <!--BEGIN QUICK LINKS-->
                      <table style="vertical-align:central ;border: 0px solid black; color: #000000; font-weight: bold; text-align:center; text-align:justify;height: 100%;" >                       
-                             <tr><td> 
+                             <tr><td style="font-family:'GT_Walsheim_Pro_Regular';"> 
                                  <ul> 
                                      <li style="padding-bottom:10px;"> <span style="font-size: 11vw;  color: #000000;">Quick Links</span> </li>
                                      <li class="nc-top-links__list-item"><a id="profile" style="color: black; font-size: 6.5vw; font-weight:normal" title="My Profile" href="" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>My Profile</a></li>
-                                     <li class="nc-top-links__list-item"><a id="plan" style="color: black; font-size: 6.5vw; font-weight:normal" title="My Plan" href="" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>My Plan</a> </li>
+                                     <li class="nc-top-links__list-item"><a id="plan" style="color: black; font-size: 6.5vw; font-weight:normal" title="My Plan" href="https://my.dxc.com/employee-resources/dxc-university/overview/BPSacademy.html" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>My Plan</a> </li>
                                      <li class="nc-top-links__list-item"><a id="lerning" style="color: black; font-size: 6.5vw; font-weight:normal" title="My Completed Learning" href="" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>My Completed Learning</a></li>
                                      <li class="nc-top-links__list-item"><a id="reward" style="color: black; font-size: 6.5vw; font-weight:normal" title="My Rewards & Badges" href="" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>My Rewards & Badges</a> </li>
                                      <li class="nc-top-links__list-item"><a id="mobilelerning" style="color: black; font-size: 6.5vw; font-weight:normal" title="Mobile Learning App" href="" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>Mobile Learning App</a></li>
@@ -122,7 +122,7 @@ p.a {
                         <!--Internal LINKS-->
                         <table style="vertical-align:central ;border: 0px solid black; color: #000000; font-weight: bold; text-align:center; text-align:justify;height: 100%;">
                             <tr>
-                                <td>
+                                <td style="font-family:'GT_Walsheim_Pro_Regular';">
                                     <ul>
                                         <li style="padding-bottom:10px;"> <span style="font-size: 11vw;  color: #000000;">Internal Links</span> </li>
                                         <li class="nc-top-links__list-item"><a style="color: black; font-size: 6.5vw; font-weight:normal" title="my.dxc.com" href="https://my.dxc.com/" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>my.dxc.com</a></li>
