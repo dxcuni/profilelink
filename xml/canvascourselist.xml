@@ -209,13 +209,13 @@ p.a {
                 <table style="border: 1px solid black;" >
                     <tr>
                         <td style="background-color:white; height:30px; padding-left:10px;">
-                            <span style=" font-size: 22pt; color:black;font-weight:bold"> Top Trending Curricula</span>
+                            <span style=" font-size: 22pt; color:black;font-weight:bold; font-family:'GT_Walsheim_Pro_Regular';"> Top Trending Curricula</span>
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <!--Start: Top Trending Curricula Area -->                        
-                                        <div id="divTopTrending"> </div>                                    
+                                        <div id="divTopTrending" style="font-family:'GT_Walsheim_Pro_Regular';"> </div>                                    
                             <!--End: Top Trending Curricula Area -->
                         </td>
                     </tr>
@@ -225,7 +225,7 @@ p.a {
                 <table style="border: 1px solid black;">
                     <tr>
                         <td style="background-color:white; height:30px; padding-left:10px;">
-                            <span style=" font-size: 22pt; color: black; font-weight:bold"> Popular Courses</span>
+                            <span style=" font-size: 22pt; color: black; font-weight:bold; font-family:'GT_Walsheim_Pro_Regular'"> Popular Courses</span>
 
                         </td>
                     </tr>
@@ -233,7 +233,7 @@ p.a {
                     <tr>
                         <td>
                             <!--Start: Popular Courses Area -->
-                            <div id="divPopularCourse"></div>
+                            <div id="divPopularCourse" style="font-family:'GT_Walsheim_Pro_Regular';"></div>
                             <!--End: Popular Courses Area -->
                         </td>
                     </tr>
