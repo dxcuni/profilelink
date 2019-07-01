@@ -45,6 +45,27 @@
 		
 	 <style type="text/css">  
 
+	        @font-face {
+font-family: 'GT_Walsheim_Pro_Regular';
+src: url('../res/css/GT-Walsheim-Pro-Regular.eot'); /* IE9 Compat Modes */
+src: url('../res/css/GT-Walsheim-Pro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('../res/css/GT-Walsheim-Pro-Regular.woff') format('woff'), /* Modern Browsers */
+url('../res/css/GT-Walsheim-Pro-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+url('../res/css/GT-Walsheim-Pro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */}
+        body {font-family: GT_Walsheim_Pro_Regular;}
+p.a {
+    font-family: "GT_Walsheim_Pro_Regular";
+}
+
+@font-face {
+font-family: 'GT_Walsheim_Pro_Bold';
+src: url('../res/css/GT-Walsheim-Pro-Bold.eot'); /* IE9 Compat Modes */
+src: url('../res/css/GT-Walsheim-Pro-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('../res/css/GT-Walsheim-Pro-Bold.woff') format('woff'), /* Modern Browsers */
+url('../res/css/GT-Walsheim-Pro-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+url('../res/css/GT-Walsheim-Pro-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
        html, body{
     height:100%;
     width:100%;
@@ -78,23 +99,13 @@
 		      text-align: left;
 		      padding-left: 0px;
 		    }
-       @font-face {
-font-family: 'GT_Walsheim_Pro_Regular';
-src: url('../res/css/GT-Walsheim-Pro-Regular.eot'); /* IE9 Compat Modes */
-src: url('../res/css/GT-Walsheim-Pro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-url('../res/css/GT-Walsheim-Pro-Regular.woff') format('woff'), /* Modern Browsers */
-url('../res/css/GT-Walsheim-Pro-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
-url('../res/css/GT-Walsheim-Pro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */}
-        body {font-family: GT_Walsheim_Pro_Regular;}
-p.a {
-    font-family: "GT_Walsheim_Pro_Regular";
-}
+
          </style>
          </style>		
 	    
 		
 		     
-        <table style="border: 0px solid black;font-family:'GT_Walsheim_Pro_Regular'; ">
+        <table style="border: 0px solid black; ">
 			<tbody>
 
 		 <tr>
@@ -103,7 +114,7 @@ p.a {
                      <table style="vertical-align:central ;border: 0px solid black; color: #000000; font-weight: bold; text-align:center; text-align:justify;height: 100%;" >                       
                              <tr><td style="font-family:'GT_Walsheim_Pro_Regular';"> 
                                  <ul> 
-                                     <li style="padding-bottom:10px;"> <span style="font-size: 11vw;  color: #000000;font-family:'GT_Walsheim_Pro_Regular';">Quick Links</span> </li>
+                                     <li style="padding-bottom:10px;"> <span style="font-size: 11vw;  color: #000000;font-family:'GT_Walsheim_Pro_Bold';">Quick Links</span> </li>
                                      <li class="nc-top-links__list-item"><a id="profile" style="color: black; font-size: 6.5vw; font-weight:normal" title="My Profile" href="" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>My Profile</a></li>
                                      <li class="nc-top-links__list-item"><a id="plan" style="color: black; font-size: 6.5vw; font-weight:normal" title="My Plan" href="https://my.dxc.com/employee-resources/dxc-university/overview/BPSacademy.html" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>My Plan</a> </li>
                                      <li class="nc-top-links__list-item"><a id="lerning" style="color: black; font-size: 6.5vw; font-weight:normal" title="My Completed Learning" href="" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>My Completed Learning</a></li>
@@ -124,7 +135,7 @@ p.a {
                             <tr>
                                 <td style="font-family:'GT_Walsheim_Pro_Regular';">
                                     <ul>
-                                        <li style="padding-bottom:10px;"> <span style="font-size: 11vw;  color: #000000;font-family:'GT_Walsheim_Pro_Regular';">Internal Links</span> </li>
+                                        <li style="padding-bottom:10px;"> <span style="font-size: 11vw;  color: #000000;font-family:'GT_Walsheim_Pro_Bold';">Internal Links</span> </li>
                                         <li class="nc-top-links__list-item"><a style="color: black; font-size: 6.5vw; font-weight:normal" title="my.dxc.com" href="https://my.dxc.com/" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>my.dxc.com</a></li>
                                         <li class="nc-top-links__list-item"><a style="color: black; font-size: 6.5vw; font-weight:normal" title="DXC University (Intranet)" href="https://my.dxc.com/employee-resources/dxc-university.html" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>DXC University (Intranet)</a> </li>
                                         <li class="nc-top-links__list-item"><a style="color: black; font-size: 6.5vw; font-weight:normal" title="DXC Onboarding" href="https://my.dxc.com/onboarding/home.html" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>DXC Onboarding</a></li>
