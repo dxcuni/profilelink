@@ -24,6 +24,15 @@ url('../res/css/GT-Walsheim-Pro-Regular.svg#svgFontName') format('svg'); /* Lega
 p.a {
     font-family: "GT_Walsheim_Pro_Regular";
 }
+
+@font-face {
+font-family: 'GT_Walsheim_Pro_Bold';
+src: url('../res/css/GT-Walsheim-Pro-Bold.eot'); /* IE9 Compat Modes */
+src: url('../res/css/GT-Walsheim-Pro-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('../res/css/GT-Walsheim-Pro-Bold.woff') format('woff'), /* Modern Browsers */
+url('../res/css/GT-Walsheim-Pro-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+url('../res/css/GT-Walsheim-Pro-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
 	 
 		#ex2 img { 
 		border: 1px solid white; 
@@ -209,7 +218,7 @@ p.a {
                 <table style="border: 1px solid black;" >
                     <tr>
                         <td style="background-color:white; height:30px; padding-left:10px;">
-                            <span style=" font-size: 22pt; color:black;font-weight:bold; font-family:'GT_Walsheim_Pro_Regular';"> Top Trending Curricula</span>
+                            <span style=" font-size: 22pt; color:black;font-weight:bold; font-family:'GT_Walsheim_Pro_Bold';"> Top Trending Curricula</span>
                         </td>
                     </tr>
                     <tr>
@@ -225,7 +234,7 @@ p.a {
                 <table style="border: 1px solid black;">
                     <tr>
                         <td style="background-color:white; height:30px; padding-left:10px;">
-                            <span style=" font-size: 22pt; color: black; font-weight:bold; font-family:'GT_Walsheim_Pro_Regular'"> Popular Courses</span>
+                            <span style=" font-size: 22pt; color: black; font-weight:bold; font-family:'GT_Walsheim_Pro_Bold'"> Popular Courses</span>
 
                         </td>
                     </tr>
