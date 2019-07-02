@@ -5,10 +5,7 @@ src: url('GT-Walsheim-Pro-Regular.eot?#iefix') format('embedded-opentype'), /* I
 url('GT-Walsheim-Pro-Regular.woff') format('woff'), /* Modern Browsers */
 url('GT-Walsheim-Pro-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
 url('GT-Walsheim-Pro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */}
-        body {font-family: GT_Walsheim_Pro_Regular;}
-p.a {
-    font-family: "GT_Walsheim_Pro_Regular";
-}
+
 
 @font-face {
 font-family: 'GT_Walsheim_Pro_Bold';
