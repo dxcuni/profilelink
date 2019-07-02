@@ -9,7 +9,7 @@
 	  </ModulePrefs>
         <Content type="html" view="home">
 	  <![CDATA[
-	<link rel="stylesheet" type="text/css" href="../res/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/dxcuni/profilelink/itg/res/css/main.css" />
 	 
 	 <style type="text/css">     
 	
