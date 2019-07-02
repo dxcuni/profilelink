@@ -364,3 +364,12 @@ src: url('GT-Walsheim-Pro-Regular.eot?#iefix') format('embedded-opentype'), /* I
 url('GT-Walsheim-Pro-Regular.woff') format('woff'), /* Modern Browsers */
 url('GT-Walsheim-Pro-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
 url('GT-Walsheim-Pro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */}
+
+@font-face {
+font-family: 'GT_Walsheim_Pro_Bold';
+src: url('GT-Walsheim-Pro-Bold.eot'); /* IE9 Compat Modes */
+src: url('GT-Walsheim-Pro-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('GT-Walsheim-Pro-Bold.woff') format('woff'), /* Modern Browsers */
+url('GT-Walsheim-Pro-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+url('GT-Walsheim-Pro-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
