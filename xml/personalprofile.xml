@@ -32,7 +32,7 @@
                 MyCompLearningURL = currentURLHost+URLVaraibale+"profile/learningtranscripts/"+employeeID;
 		        MyPlanURL = currentURLHost+URLVaraibale+"profile/plans/"+employeeID	;		         
 			    SkillSupportHelp = currentURLHost+"/Saba/Web_spf/NA2PRD0005/pages/pagelistview/pgcnt000000000178132"
-				MyReward = currentURLHost+"/Saba/Web_spf/NA3T1SNB0081/app/me/reward";
+				MyReward = currentURLHost+"/Saba/Web_spf/NA2PRD0005/app/me/reward";
 				MyMobileLerning = "https://my.dxc.com/employee-resources/dxc-university/overview/dxculearningapp.html";
 			    SkillManagementURL = "https://my.dxc.com/our-company/global-functions/integrated-workforce-management/analytics-and-intelligence/dxc-skills-management.html";
 				AccessToskillSoft="https://csc.skillport.com/skillportfe/main.action#whatshappening";
