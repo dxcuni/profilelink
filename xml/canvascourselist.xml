@@ -248,10 +248,7 @@ url('../res/css/GT-Walsheim-Pro-Bold.svg#svgFontName') format('svg'); /* Legacy 
             </td>
         </tr>
 </table>
-<script type="text/javascript">
-$(".app-trq-select-control").hide();
-</script>
-	    
+
 	
 	    </script>
 	  ]]>
