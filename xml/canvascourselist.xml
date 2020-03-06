@@ -178,7 +178,7 @@ url('../res/css/GT-Walsheim-Pro-Bold.svg#svgFontName') format('svg'); /* Legacy 
 	        //Popular Course XML PArsing  END
 
 
-$(".app-trq-select-control").hide();
+
 
 	        </script>
 		
@@ -248,8 +248,9 @@ $(".app-trq-select-control").hide();
             </td>
         </tr>
 </table>
-
-
+<script type="text/javascript">
+$(".app-trq-select-control").hide();
+</script>
 	    
 	
 	    </script>
