@@ -249,8 +249,9 @@ url('../res/css/GT-Walsheim-Pro-Bold.svg#svgFontName') format('svg'); /* Legacy 
 </table>
        <script type="text/javascript">
 
-	    alert("Hi Yes");
-	       document.getElementById("trq-select-global-search").style.setProperty('display', 'none');
+	    alert("Hi KKKKs");
+//	       document.getElementById("trq-select-global-search").style.setProperty('display', 'none');
+$("trq-select-global-search").append('<style type="text/css"> style="display: none;" </style>');
 
 	</script>
 	    </script>
