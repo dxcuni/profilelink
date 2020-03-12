@@ -176,7 +176,7 @@ url('../res/css/GT-Walsheim-Pro-Bold.svg#svgFontName') format('svg'); /* Legacy 
             });
         });
 	        //Popular Course XML PArsing  END
-
+		alert("Hi Testing");
 	       document.getElementById("trq-select-global-search").disabled=true;
 	        </script>
 		<table>
