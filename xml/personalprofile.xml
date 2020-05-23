@@ -35,7 +35,7 @@
 				MyReward = currentURLHost+"/Saba/Web_spf/NA2PRD0005/app/me/reward";
 				MyMobileLerning = "https://my.dxc.com/employee-resources/dxc-university/overview/dxculearningapp.html";
 			    SkillManagementURL = "https://my.dxc.com/our-company/global-functions/integrated-workforce-management/analytics-and-intelligence/dxc-skills-management.html";
-				AccessToskillSoft="https://csc.skillport.com/skillportfe/main.action#whatshappening";
+				AccessToskillSoft="https://dxc.skillport.com/skillportfe/main.action#whatshappening";
 		    //MyRewards = currentURLHost+URLVaraibale+"profile/rewards/"+employeeID;
 
 			//alert(currentURL +" -- "+currentURLHost );			
