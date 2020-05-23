@@ -209,8 +209,7 @@ url('../res/css/GT-Walsheim-Pro-Bold.svg#svgFontName') format('svg'); /* Legacy 
               </td>
           </tr>
           <tr><td colspan="2"><hr class="HLine" /></td></tr>
-          
-        <tr>
+                  <tr>
             <td valign="top" width="50%">
                 <table style="border: 1px solid black;" >
                     <tr>
